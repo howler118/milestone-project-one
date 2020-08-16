@@ -9,8 +9,14 @@
 body {
     font-family: "Bebas Neue";
     /*color: cornflowerblue;*/
-    /*color: red;*/
+    color: #7f1734;
     letter-spacing: 1px;
+}
+
+p {
+    font-family: "Montserrat";
+    font-size: 75px;
+    letter-spacing: 0px;
 }
 
 /* index.html styling*/
@@ -21,7 +27,8 @@ body {
 header {
     height: 130px;
     width: 100%;
-    border: 1px solid green; /* Remove later */
+    overflow: hidden;
+      
 }
 
 #umfc_logo {
@@ -33,11 +40,15 @@ header {
     border-radius: 50%;
 }
 
+header a {
+    color: inherit;
+}
+
 header a h1 {
     padding-left: 30px;
     float: left;
     text-decoration: none;
-    color: red; /* Why won't this inherit from the colour from "body"? */
+    color: inherit;
     font-size: 60px;
     position: relative;
     top: 30px;
@@ -45,6 +56,8 @@ header a h1 {
 
 #menu {
     list-style-type: none;
+    float:right;
+    padding-top: 25px;
 }
 
 #menu a {
@@ -52,54 +65,129 @@ header a h1 {
     color: inherit;
     position: relative;
     top: 20px;
+    margin-bottom: 10px;
 }
 
 
 #menu li {
-    float:right;
+    float:left;
     margin-right: 20px;
     font-size: 40px;
 }
 
+#menu li:hover {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #7f1734;
+}
+
+.active_page {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #7f1734;
+}
 
 /* Welcome section styling*/
 
+#welcome {
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#welcome-img img {
+    background: url(../images/UMFC_11-12.jpeg) no-repeat center center;
+    height: 700px;
+    width: 100%;
+    opacity: 0.3;
+    object-fit: cover;
+    object-position: 100% -400px;
+}
+
+#welcome-text {
+    height: 120px;
+    width: 100%;
+    position: absolute;
+    padding-left: 50px;
+    color: white;
+    background-color: #7f1734;
+    opacity: 0.8;
+    top: 0px;
+}
+
+#welcome-text p {
+    height: 120px;
+    width: 100%;
+    position: absolute;
+    color: white;
+}
 
 /* Latest team info section styling*/
+
+#latest-info {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #7f1734;
+}
 
 
 /* Interested in joining section styling*/
 
+#join {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    background-color: green;
+}
 
 /* FOOTER STYLING */
 
 footer {
-    height: 80px;
+    height: 100px;
     width: 100%;
-    border: 10px solid green; /* Remove later */
+    overflow: hidden;
+    border: 1px solid green; /* Remove later */
     font-size: 40px;
-    display: inline;
+    padding-left: 40px;
+    padding-top: 10px;
 }
 
 footer h2 {
-    text-align: center;
+    text-align: left;
     font-size: inherit;
-    display: inline-block;
     position: relative;
     margin-top: 20px;
-   
+    float: left;
 }
 
 #nike_logo {
     height: 72px;
     weight: 128px;
-    margin-left: 100px;
+    position: relative;
+    margin-left: 150px;
     margin-right: 100px;
     float: left;
 }
 
+#quayside_tyres_logo {
+    height: 72px;
+    weight: 128px;
+    position: relative;
+    float: left;
+    margin-right: 100px;
+    margin-top: 1px;
+}
+
+#iomfa_logo {
+    height: 72px;
+    weight: 128px;
+    position: relative;
+    float: left;
+    margin-right: 150px;
+    margin-top: 1px;
+}
+
 #social_media_links h2 {
-    text-align: center; 
     font-size: inherit;
     margin-right: 40px;
 }
@@ -111,21 +199,12 @@ footer h2 {
 #social_media_links a {
     text-decoration: none;
     color: inherit;
-    text-align: center;
 }
 
 #social_media_links h2 li {
     position: relative;
     float: right;
-    margin-right: 20px;
+    margin-left: 20px;
     font-size: inherit;
 }
 
-#quayside_tyres_logo {
-    height: 72px;
-    weight: 128px;
-    position: relative;
-    float: right;
-    margin-right: 20px;
-    margin-left: 120px;
-}
