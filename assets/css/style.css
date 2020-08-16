@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: "Bebas Neue";
+    /*color: cornflowerblue;*/
+    /*color: red;*/
+    letter-spacing: 1px;
+}
+
+/* index.html styling*/
+
+
+/* HEADER STYLING */
+
+header {
+    height: 130px;
+    width: 100%;
+    border: 1px solid green; /* Remove later */
+}
+
+#umfc_logo {
+    float: left;
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 5px;
+    border-radius: 50%;
+}
+
+header a h1 {
+    padding-left: 30px;
+    float: left;
+    text-decoration: none;
+    color: red; /* Why won't this inherit from the colour from "body"? */
+    font-size: 60px;
+    position: relative;
+    top: 30px;
+}
+
+#menu {
+    list-style-type: none;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+    top: 20px;
+}
+
+
+#menu li {
+    float:right;
+    margin-right: 20px;
+    font-size: 40px;
+}
+
+
+/* Welcome section styling*/
+
+
+/* Latest team info section styling*/
+
+
+/* Interested in joining section styling*/
+
+
+/* FOOTER STYLING */
+
+footer {
+    height: 80px;
+    width: 100%;
+    border: 10px solid green; /* Remove later */
+    font-size: 40px;
+    display: inline;
+}
+
+footer h2 {
+    text-align: center;
+    font-size: inherit;
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+   
+}
+
+#nike_logo {
+    height: 72px;
+    weight: 128px;
+    margin-left: 100px;
+    margin-right: 100px;
+    float: left;
+}
+
+#social_media_links h2 {
+    text-align: center; 
+    font-size: inherit;
+    margin-right: 40px;
+}
+
+#social_media_links {
+    list-style-type: none;
+}
+
+#social_media_links a {
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+}
+
+#social_media_links h2 li {
+    position: relative;
+    float: right;
+    margin-right: 20px;
+    font-size: inherit;
+}
+
+#quayside_tyres_logo {
+    height: 72px;
+    weight: 128px;
+    position: relative;
+    float: right;
+    margin-right: 20px;
+    margin-left: 120px;
+}
