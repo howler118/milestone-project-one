@@ -13,9 +13,9 @@ body {
     letter-spacing: 1px;
 }
 
-p {
+p, a {
     font-family: "Montserrat";
-    font-size: 75px;
+    font-size: 20px;
     letter-spacing: 0px;
 }
 
@@ -28,7 +28,10 @@ header {
     height: 130px;
     width: 100%;
     overflow: hidden;
-      
+    font-family: "Bebas Neue";
+    color: #7f1734;
+    letter-spacing: 1px;
+    background-color:lightcyan;
 }
 
 #umfc_logo {
@@ -38,20 +41,31 @@ header {
     position: relative;
     top: 5px;
     border-radius: 50%;
+    
 }
 
 header a {
     color: inherit;
+    font-family: inherit;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: inherit;
+    font-family: inherit;
+    text-decoration: none;
 }
 
 header a h1 {
     padding-left: 30px;
     float: left;
-    text-decoration: none;
     color: inherit;
     font-size: 60px;
     position: relative;
     top: 30px;
+
+    font-family: inherit;
+    letter-spacing: inherit;
 }
 
 #menu {
@@ -66,13 +80,13 @@ header a h1 {
     position: relative;
     top: 20px;
     margin-bottom: 10px;
+    font-size: 40px;
 }
 
 
 #menu li {
     float:left;
     margin-right: 20px;
-    font-size: 40px;
 }
 
 #menu li:hover {
@@ -107,19 +121,105 @@ header a h1 {
     height: 120px;
     width: 100%;
     position: absolute;
-    padding-left: 50px;
-    color: white;
+    padding-left: 50px;    
     background-color: #7f1734;
     opacity: 0.8;
     top: 0px;
+    padding-top: 10px;
 }
 
-#welcome-text p {
+#welcome-text h1 {
     height: 120px;
     width: 100%;
     position: absolute;
     color: white;
+    font-size: 85px;
+    text-align: center;
 }
+
+/* Club info styling*/
+#club-info {
+    height: 600px;
+    width: 100%;
+    padding-top: 10px;
+    background-color: #7f1734;
+    color: white;
+}
+
+#club-info h1 {
+    text-align: center;
+    color: inherit;
+    background-color:inherit;
+}
+
+#left-club-info {
+    height: 100%;
+    width: 33.33%;
+    float:left;
+    background-color: black;
+}
+
+#right-club-info {
+    height: 100%;
+    width: 33.33%;
+    float: right;
+    background-color: blue;
+}
+ 
+#center-club-info {
+    height: 100%;
+    width: 33.33%;
+    margin: 0 auto;
+    background-color: green;
+}
+
+#left-club-info, #right-club-info, #center-club-info {
+    display: inline-block;
+}
+
+hr {
+    border-top: 1px solid white;
+    width: 1005;
+    margin: 2px 0;
+}
+
+#left-club-info div {
+    clear: both;
+    margin-top: 50px;
+}
+
+#last-match {
+    width: 40%;
+    float: right;
+}
+
+#last-match a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#last-match a:hover {
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+    
+}
+
+#history {
+    width: 40%;
+    float: right;
+}
+
+#history a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#history a:hover {
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+}
+
+
 
 /* Latest team info section styling*/
 
@@ -140,16 +240,49 @@ header a h1 {
     background-color: green;
 }
 
+/* Club shop banner with link to training gear*/
+
+#club_shop {
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #7f1734;
+}
+
+#club_shop_banner {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    padding-left: 50px;    
+    background-color: #7f1734;
+    top: 0px;
+    padding-top: 10px;
+}
+
+#club_shop_banner h1 a {
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #7f1734;
+    color: white;
+    font-size: 75px;
+    font-family: "Bebas Neue";
+    text-align: center;
+}
+
 /* FOOTER STYLING */
 
 footer {
     height: 100px;
     width: 100%;
     overflow: hidden;
-    border: 1px solid green; /* Remove later */
     font-size: 40px;
     padding-left: 40px;
     padding-top: 10px;
+    background-color:lightcyan; 
+    border-top:10px solid #7f1734;
 }
 
 footer h2 {
@@ -162,7 +295,6 @@ footer h2 {
 
 #nike_logo {
     height: 72px;
-    weight: 128px;
     position: relative;
     margin-left: 150px;
     margin-right: 100px;
@@ -171,7 +303,6 @@ footer h2 {
 
 #quayside_tyres_logo {
     height: 72px;
-    weight: 128px;
     position: relative;
     float: left;
     margin-right: 100px;
@@ -180,11 +311,15 @@ footer h2 {
 
 #iomfa_logo {
     height: 72px;
-    weight: 128px;
     position: relative;
     float: left;
     margin-right: 150px;
     margin-top: 1px;
+}
+
+#social_media_links {
+    list-style-type: none;
+    font-size: inherit;
 }
 
 #social_media_links h2 {
@@ -192,13 +327,10 @@ footer h2 {
     margin-right: 40px;
 }
 
-#social_media_links {
-    list-style-type: none;
-}
-
 #social_media_links a {
     text-decoration: none;
     color: inherit;
+    font-size: inherit;
 }
 
 #social_media_links h2 li {
