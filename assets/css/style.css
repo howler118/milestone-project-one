@@ -11,12 +11,17 @@ body {
     /*color: cornflowerblue;*/
     color: #7f1734;
     letter-spacing: 1px;
+    background-color: lightcyan
 }
 
 p, a {
     font-family: "Montserrat";
     font-size: 20px;
     letter-spacing: 0px;
+}
+
+h1 {
+    font-size: 75px;
 }
 
 /* index.html styling*/
@@ -109,12 +114,12 @@ header a h1 {
 }
 
 #welcome-img img {
-    background: url(../images/UMFC_11-12.jpeg) no-repeat center center;
     height: 700px;
     width: 100%;
-    opacity: 0.3;
+    opacity: 0.4;
     object-fit: cover;
     object-position: 100% -400px;
+    background-color: none;
 }
 
 #welcome-text {
@@ -136,6 +141,34 @@ header a h1 {
     font-size: 85px;
     text-align: center;
 }
+
+/* About styling*/
+#about {
+    height: 1500px;
+    width: 100%;
+    background-color: lightcyan;
+    color: #7f1734;
+    overflow: hidden;
+}
+
+#about h1 {
+    text-align: center;
+    color:  white;
+    background-color:#7f1734;
+
+}
+
+#history {
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+#history p {
+    text-align: center;
+}
+
 
 /* Club info styling*/
 #club-info {
@@ -204,22 +237,40 @@ hr {
     
 }
 
-#history {
+
+/*
+#fixtures {
     width: 40%;
     float: right;
 }
 
-#history a {
+#fixtures a {
     color: inherit;
     text-decoration: none;
 }
 
-#history a:hover {
+#fixtures a:hover {
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+    
+}
+
+#news {
+    width: 40%;
+    float: right;
+}
+
+#news a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#news a:hover {
     padding-bottom: 5px;
     border-bottom: 1px solid white;
 }
 
-
+*/
 
 /* Latest team info section styling*/
 
@@ -313,7 +364,7 @@ footer h2 {
     height: 72px;
     position: relative;
     float: left;
-    margin-right: 150px;
+    margin-right: 75px;
     margin-top: 1px;
 }
 
