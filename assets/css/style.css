@@ -8,10 +8,8 @@
 
 body {
     font-family: "Bebas Neue";
-    /*color: cornflowerblue;*/
     color: #7f1734;
     letter-spacing: 1px;
-    background-color: lightcyan
 }
 
 p, a {
@@ -134,10 +132,10 @@ header a h1 {
 }
 
 #welcome-text h1 {
-    height: 120px;
+    height: 130px;
     width: 100%;
     position: absolute;
-    color: white;
+    color: white; 
     font-size: 85px;
     text-align: center;
 }
@@ -146,7 +144,6 @@ header a h1 {
 #about {
     height: 1500px;
     width: 100%;
-    background-color: lightcyan;
     color: #7f1734;
     overflow: hidden;
 }
@@ -275,20 +272,93 @@ hr {
 /* Latest team info section styling*/
 
 #latest-info {
-    height: 500px;
+    height: 800px;
     width: 100%;
     overflow: hidden;
-    background-color: #7f1734;
+    background-color: white;
 }
+
+#latest-info h1 {
+    text-align: center;
+    color:  white;
+    background-color:#7f1734;
+
+}
+
+
+#from-the-vault {
+    display: block;
+    margin: 0 auto;
+}
+
 
 
 /* Interested in joining section styling*/
 
-#join {
-    height: 500px;
+#join-container {
+    height: 800px;
     width: 100%;
+    color: black;
     overflow: hidden;
-    background-color: green;
+    position: relative;
+}
+
+#join-container h1 {
+    text-align: center;
+    color:  white;
+    background-color:#7f1734;
+}
+
+#join-outer {
+    height: 800px;
+    width: 100%;
+    position: relative;
+}
+
+#join-image {
+    height: 800px;
+    width: 100%;
+    opacity: 0.5;
+
+}
+
+#training_picture {
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+    object-fit: cover;
+    object-position: 100% -400px;
+    margin-top: -8px;
+}
+
+#training_one, #training_two, #subscriptions, #matchday {
+    height: 250px;
+    width: 400px;
+    background-color: #7f1734;
+    color: white;
+    position: absolute; 
+    float: left;
+    border-radius: 2%;
+    opacity: 0.8;
+    text-align: center;
+    padding: 10px;
+    top: 375px;
+}
+
+#training_one {
+    left: 100px;
+}
+
+#training_two {
+    left: 550px;
+}
+
+#subscriptions {
+    left: 1000px;
+}
+
+#matchday {
+    left: 1450px;
 }
 
 /* Club shop banner with link to training gear*/
