@@ -22,10 +22,10 @@ h1 {
     font-size: 75px;
 }
 
-/* index.html styling*/
+/* =============================================== INDEX.HTML PAGE STYLING =============================================== */
 
 
-/* HEADER STYLING */
+/* =============================================== HEADER SECTION STYLING =============================================== */
 
 header {
     height: 130px;
@@ -102,7 +102,7 @@ header a h1 {
     border-bottom: 1px solid #7f1734;
 }
 
-/* Welcome section styling*/
+/* =============================================== WELCOME SECTION STYLING =============================================== */
 
 #welcome {
     height: 700px;
@@ -140,9 +140,9 @@ header a h1 {
     text-align: center;
 }
 
-/* About styling*/
+/* =============================================== ABOUT SECTION STYLING =============================================== */
 #about {
-    height: 1500px;
+    height: 600px;
     width: 100%;
     color: #7f1734;
     overflow: hidden;
@@ -167,13 +167,15 @@ header a h1 {
 }
 
 
-/* Club info styling*/
+/* =============================================== CLUB INFO SECTION STYLING =============================================== */
+
 #club-info {
     height: 600px;
     width: 100%;
     padding-top: 10px;
     background-color: #7f1734;
     color: white;
+    overflow: hidden;
 }
 
 #club-info h1 {
@@ -269,38 +271,35 @@ hr {
 
 */
 
-/* Latest team info section styling*/
+/* =============================================== LATEST TEAM INFO SECTION STYLING =============================================== */
 
 #latest-info {
-    height: 800px;
+    height: 500px;
     width: 100%;
+    padding-top: 10px;
+    background-color: #7f1734;
+    color: white;
     overflow: hidden;
-    background-color: white;
 }
 
 #latest-info h1 {
     text-align: center;
-    color:  white;
-    background-color:#7f1734;
-
+    color: inherit;
+    background-color:inherit;
 }
-
 
 #from-the-vault {
     display: block;
     margin: 0 auto;
 }
 
-
-
-/* Interested in joining section styling*/
+/* =============================================== INTERESTED IN JOINING SECTION STYLING =============================================== */
 
 #join-container {
-    height: 800px;
+    height: 900px;
     width: 100%;
-    color: black;
-    overflow: hidden;
-    position: relative;
+    padding-top: 10px;
+    background-color: #7f1734;
 }
 
 #join-container h1 {
@@ -309,13 +308,44 @@ hr {
     background-color:#7f1734;
 }
 
-#join-outer {
-    height: 800px;
-    width: 100%;
-    position: relative;
+#join-container h2 {
+    text-align: center;
+    color:  white;
+    background-color:#7f1734;
+    font-size: 40px;
 }
 
-#join-image {
+#join-outer {
+    height: 100%;
+    width: 100%;
+    background: url(../images/training.jpg);
+}
+
+#join-outer-left {
+    height: 100%;
+    width: 33.33%;
+    float:left;
+    
+}
+#join-outer-right {
+    height: 100%;
+    width: 33.33%;
+    float:right;
+}
+
+
+#join-outer-center {
+    height: 100%;
+    width: 33.33%;
+    margin: 0 auto;
+}
+
+#join-outer-left, #join-outer-right, #join-outer-center {
+    display: inline-block;
+}
+
+
+/*#join-image {
     height: 800px;
     width: 100%;
     opacity: 0.5;
@@ -329,39 +359,27 @@ hr {
     object-fit: cover;
     object-position: 100% -400px;
     margin-top: -8px;
-}
+}*/
 
-#training_one, #training_two, #subscriptions, #matchday {
-    height: 250px;
-    width: 400px;
+#training_one, #training_two, #subscriptions, #join-text-one, #join-text-two, #join-text-three{
+    width: 75%;
     background-color: #7f1734;
-    color: white;
-    position: absolute; 
-    float: left;
     border-radius: 2%;
-    opacity: 0.8;
-    text-align: center;
-    padding: 10px;
-    top: 375px;
+    opacity: 0.9;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px;
 }
 
-#training_one {
-    left: 100px;
+#training_one, #training_two, #subscriptions {
+    height: 400px;
 }
 
-#training_two {
-    left: 550px;
+#join-text-one, #join-text-two, #join-text-three {
+    height: 200px;
 }
 
-#subscriptions {
-    left: 1000px;
-}
-
-#matchday {
-    left: 1450px;
-}
-
-/* Club shop banner with link to training gear*/
+/* =============================================== CLUB SHOP BANNER WITH LINK TO TRAINING GEAR STYLING =============================================== */
 
 #club_shop {
     height: 100px;
@@ -393,7 +411,7 @@ hr {
     text-align: center;
 }
 
-/* FOOTER STYLING */
+/* =============================================== FOOTER SECTION STYLING =============================================== */
 
 footer {
     height: 100px;
