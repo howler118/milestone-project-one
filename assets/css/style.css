@@ -170,7 +170,7 @@ header a h1 {
 /* =============================================== CLUB INFO SECTION STYLING =============================================== */
 
 #club-info {
-    height: 600px;
+    height: 650px;
     width: 100%;
     padding-top: 10px;
     background-color: #7f1734;
@@ -188,21 +188,18 @@ header a h1 {
     height: 100%;
     width: 33.33%;
     float:left;
-    background-color: black;
 }
 
 #right-club-info {
     height: 100%;
     width: 33.33%;
     float: right;
-    background-color: blue;
 }
  
 #center-club-info {
     height: 100%;
     width: 33.33%;
     margin: 0 auto;
-    background-color: green;
 }
 
 #left-club-info, #right-club-info, #center-club-info {
@@ -215,77 +212,62 @@ hr {
     margin: 2px 0;
 }
 
-#left-club-info div {
+#left-club-info div, #right-club-info div {
     clear: both;
     margin-top: 50px;
 }
 
-#last-match {
-    width: 40%;
-    float: right;
-}
-
-#last-match a {
+#last-match a, #next-match a, #football-news a, #league-table a {
     color: inherit;
     text-decoration: none;
 }
 
-#last-match a:hover {
+#last-match a:hover, #next-match a:hover, #football-news a:hover, #league-table a:hover  {
     padding-bottom: 5px;
     border-bottom: 1px solid white;
-    
 }
 
-
-/*
-#fixtures {
+#last-match, #football-news{
     width: 40%;
     float: right;
 }
 
-#fixtures a {
-    color: inherit;
-    text-decoration: none;
-}
-
-#fixtures a:hover {
-    padding-bottom: 5px;
-    border-bottom: 1px solid white;
-    
-}
-
-#news {
+#next-match, #league-table {
     width: 40%;
-    float: right;
+    float: left;
 }
 
-#news a {
-    color: inherit;
-    text-decoration: none;
+#umfc_logo_large {
+    border-radius: 50%;
+    height: 225px;
+    width: 225px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15%;
 }
-
-#news a:hover {
-    padding-bottom: 5px;
-    border-bottom: 1px solid white;
-}
-
-*/
 
 /* =============================================== LATEST TEAM INFO SECTION STYLING =============================================== */
 
-#latest-info {
+#vault-container {
     height: 500px;
     width: 100%;
     padding-top: 10px;
-    background-color: #7f1734;
-    color: white;
+    background-color: white;
+    color: #7f1734;
     overflow: hidden;
 }
 
-#latest-info h1 {
+#vault-container h1 {
     text-align: center;
     color: inherit;
     background-color:inherit;
+}
+
+#vault-outer {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    color: #7f1734;
 }
 
 #from-the-vault {
@@ -327,12 +309,12 @@ hr {
     float:left;
     
 }
+
 #join-outer-right {
     height: 100%;
     width: 33.33%;
     float:right;
 }
-
 
 #join-outer-center {
     height: 100%;
@@ -344,30 +326,13 @@ hr {
     display: inline-block;
 }
 
-
-/*#join-image {
-    height: 800px;
-    width: 100%;
-    opacity: 0.5;
-
-}
-
-#training_picture {
-    height: 100%;
-    width: 100%;
-    opacity: 0.4;
-    object-fit: cover;
-    object-position: 100% -400px;
-    margin-top: -8px;
-}*/
-
 #training_one, #training_two, #subscriptions, #join-text-one, #join-text-two, #join-text-three{
     width: 75%;
     background-color: #7f1734;
     border-radius: 2%;
     opacity: 0.9;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 40px;
     padding: 20px;
 }
 
