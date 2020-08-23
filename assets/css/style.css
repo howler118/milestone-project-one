@@ -249,10 +249,9 @@ hr {
 /* =============================================== LATEST TEAM INFO SECTION STYLING =============================================== */
 
 #vault-container {
-    height: 500px;
+    height: 1000px;
     width: 100%;
     padding-top: 10px;
-    background-color: white;
     color: #7f1734;
     overflow: hidden;
 }
@@ -266,13 +265,40 @@ hr {
 #vault-outer {
     height: 100%;
     width: 100%;
-    background-color: white;
     color: #7f1734;
+    position: relative;
 }
 
-#from-the-vault {
-    display: block;
-    margin: 0 auto;
+#vault-text {
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+    z-index: 2;
+}
+
+#vault-text p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #7f1734;
+    color: white;
+    
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+#UMFC-trophy {
+    width:100%;
+    opacity: 0.4;
+    position: absolute;
+    z-index: 1;
+    top: 0px
+}
+
+#vault-text iframe {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /* =============================================== INTERESTED IN JOINING SECTION STYLING =============================================== */
@@ -334,6 +360,8 @@ hr {
     margin: 0 auto;
     margin-top: 40px;
     padding: 20px;
+    border: 1px solid white;
+    box-shadow: 5px 10px black;
 }
 
 #training_one, #training_two, #subscriptions {
