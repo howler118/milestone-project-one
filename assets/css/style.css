@@ -140,37 +140,12 @@ header a h1 {
     text-align: center;
 }
 
-/* =============================================== ABOUT SECTION STYLING =============================================== */
-#about {
-    height: 600px;
-    width: 100%;
-    color: #7f1734;
-    overflow: hidden;
-}
-
-#about h1 {
-    text-align: center;
-    color:  white;
-    background-color:#7f1734;
-
-}
-
-#history {
-    margin: 0 auto;
-    padding-left: 50px;
-    padding-right: 50px;
-
-}
-
-#history p {
-    text-align: center;
-}
 
 
-/* =============================================== CLUB INFO SECTION STYLING =============================================== */
+/* =============================================== LATEST TEAM INFORMATION SECTION STYLING =============================================== */
 
 #club-info {
-    height: 650px;
+    height: 700px;
     width: 100%;
     padding-top: 10px;
     background-color: #7f1734;
@@ -182,6 +157,7 @@ header a h1 {
     text-align: center;
     color: inherit;
     background-color:inherit;
+    padding: 10px;
 }
 
 #left-club-info {
@@ -260,6 +236,7 @@ hr {
     text-align: center;
     color: inherit;
     background-color:inherit;
+    padding: 10px;
 }
 
 #vault-outer {
@@ -299,21 +276,120 @@ hr {
 #vault-text iframe {
     margin-top: 20px;
     margin-bottom: 20px;
+    border: 10px solid #7f1734;
 }
 
+/* =============================================== ABOUT SECTION STYLING =============================================== */
+#about-container {
+    height: 1500px;
+    width: 100%;
+    color: #7f1734;
+    overflow: hidden;
+}
+
+#about-container h1 {
+    text-align: center;
+    color:  white;
+    background-color:#7f1734;
+    padding: 10px;
+}
+
+#about-intro {
+    height: 20%;
+    width: 100%;
+}
+
+#about-outer {
+    height: 80%;
+    width: 100%;
+    color: #7f1734;
+    overflow: hidden;
+}
+
+#about-top-left, #about-top-right, #about-top-center, #about-bottom-left, #about-bottom-right, #about-bottom-center {
+    display: inline-block;
+}
+
+#about-top-left {
+    height: 33.33%;
+    width: 33.33%;
+    background-color: aquamarine;
+    float: left;
+}
+
+#about-top-right {
+    height: 33.33%;
+    width: 33.33%;
+    background-color: black;
+    float: right;
+}
+
+#about-top-center {
+    height: 33.33%;
+    width: 33.33%;
+    margin: 0 auto;
+    background-color: grey;
+}
+
+#about-middle-left {
+    height: 33.33%;
+    width: 33.33%;
+    background-color: green;
+    float: left;
+}
+
+#about-middle-right {
+    height: 33.33%;
+    width: 33.33%;
+    background-color: pink;
+    float: right
+}
+
+#about-middle-center {
+    height: 33.33%;
+    width: 33.33%;
+    margin: 0 auto;
+    background-color: maroon;
+}
+
+#about-bottom-left {
+    height: 33.33%;
+    width: 33.33%;
+    background-color: blue;
+    float: left;
+}
+
+#about-bottom-right {
+    height: 33.33%;
+    width: 33.33%;
+    background-color: yellow;
+    float: right
+}
+
+#about-bottom-center {
+    height: 33.33%;
+    width: 33.33%;
+    margin: 0 auto;
+    background-color: red;
+}
+
+#umfc_1970 {
+    height: 100%;
+    width: 100%;
+}
 /* =============================================== INTERESTED IN JOINING SECTION STYLING =============================================== */
 
 #join-container {
     height: 900px;
     width: 100%;
-    padding-top: 10px;
-    background-color: #7f1734;
+    overflow: hidden;
 }
 
 #join-container h1 {
     text-align: center;
     color:  white;
     background-color:#7f1734;
+    padding: 10px;
 }
 
 #join-container h2 {
@@ -326,42 +402,47 @@ hr {
 #join-outer {
     height: 100%;
     width: 100%;
-    background: url(../images/training.jpg);
+    position: relative;
+    z-index: 2;
 }
 
 #join-outer-left {
     height: 100%;
     width: 33.33%;
     float:left;
-    
+    position: relative;
+    z-index: 2;
 }
 
 #join-outer-right {
     height: 100%;
     width: 33.33%;
     float:right;
+    position: relative;
+    z-index: 2;
 }
 
 #join-outer-center {
     height: 100%;
     width: 33.33%;
     margin: 0 auto;
+    position: relative;
+    z-index: 2;
 }
 
 #join-outer-left, #join-outer-right, #join-outer-center {
     display: inline-block;
+    opacity: 0.9;
 }
 
 #training_one, #training_two, #subscriptions, #join-text-one, #join-text-two, #join-text-three{
     width: 75%;
     background-color: #7f1734;
     border-radius: 2%;
-    opacity: 0.9;
     margin: 0 auto;
     margin-top: 40px;
     padding: 20px;
-    border: 1px solid white;
-    box-shadow: 5px 10px black;
+    z-index: 2;
 }
 
 #training_one, #training_two, #subscriptions {
@@ -371,6 +452,16 @@ hr {
 #join-text-one, #join-text-two, #join-text-three {
     height: 200px;
 }
+
+#training {
+    width:100%;
+    opacity: 0.3;
+    position: absolute;
+    z-index: 1;
+    top: -8px;
+    left: 0px;
+}
+
 
 /* =============================================== CLUB SHOP BANNER WITH LINK TO TRAINING GEAR STYLING =============================================== */
 
