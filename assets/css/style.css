@@ -622,6 +622,36 @@ footer h2 {
     margin-left: 20px;
     font-size: inherit;
 }
+/* =============================================== CAMPING.HTML PAGE STYLING =============================================== */
+
+
+
+
+
+/* =============================================== CONTACT.HTML PAGE STYLING =============================================== */
+
+#contact-container {
+    height: 1000px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#contact-container h1 {
+    text-align: center;
+    color:  white;
+    background-color:#7f1734;
+    padding: 10px;
+}
+
+#contact-outer {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+#UMFC_clubhouse {
+    
+}
 
 /* =============================================== TABLET SCREENS =============================================== */
 
