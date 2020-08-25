@@ -1,4 +1,103 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Milestone project one - Union Mills FC
+
+<!--INSERT LINK TO PROJECT-->
+
+Union Mills Football club is football team from the Isle of Man
+
+--------
+
+## User Experience
+
+--------
+
+## Features
+
+### Existing Features
+
+
+### Features left to implement
+
+--------
+
+## Technologies Used
+
+#### Languages Used
+
+- HTML5
+- CSS3
+
+#### Frameworks, Libraries and Programs Used
+
+- Google Fonts:
+
+Google fonts were used on all pages on my website. I imported two fonts "Bebas Neue" which was used for headings and "Montserrat" which was used for paragraphs.
+
+- Font Awesome:
+
+Font awesome was used throughout my website to add icons to various headings to make them stand out more and look different from one and other.
+
+- Git
+
+Git was used for version control (using the Gitpod terminal)
+
+- Github
+
+Github was used to store the project
+
+- Balsamiq
+
+Was used to create my wireframe for the project
+
+--------
+--------
+## Testing
+
+### Testing User Stories from User Experience (UX) Section
+
+### Further Testing
+
+### Known Bugs
+--------
+## Deployment
+
+
+
+--------
+## Credits
+
+### Code
+
+### Content
+
+### Media
+
+The background image for the "From the vault section" was obtained from the Union Mills FC private facebook pages
+
+The Background image in the "Welcome section" was obtained from here:
+
+<!--Inser the link here-->
+
+The Background image in the "Interested in joining" section was obtained from here:
+
+<!--Inser the link here-->
+
+### Acknowledgements
+
+
+
+--------
+--------
+--------
+--------
+--------
+--------
+--------
+--------
+
+
+
+
+<img src="assets/images/UMFC_logo.jpg" style="margin: 0;">
 
 Welcome howler118,
 
