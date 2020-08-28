@@ -769,7 +769,7 @@ footer h2 {
 
 
 #feedback-container {
-    height: 1000px;
+    height: 2000px;
     width: 100%;
     overflow: hidden;
 }
@@ -786,6 +786,26 @@ footer h2 {
     width: 100%;
     position: relative;
 }
+
+#feedback-outer-top {
+    width: 100%;
+    height: 25%;
+    background-color: blue;
+}
+
+#feedback-outer-middle {
+    width: 100%;
+    height: 50%;
+    background-color: green;
+}
+
+#feedback-outer-bottom {
+    width: 100%;
+    height: 25%;
+    background-color: red;
+}
+
+
 
 /* =============================================== TABLET SCREENS =============================================== */
 
