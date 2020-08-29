@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');
 
 * {
     margin: 0;
@@ -632,9 +632,63 @@ footer h2 {
 }
 /* =============================================== CAMPING.HTML PAGE STYLING =============================================== */
 
+#tourist-trophy-container {
+    height: 1100px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    
+}
 
+#tt-outer {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
 
+#tourist-trophy-container h1, #camping-details h1, #booking-details h1 {
+    text-align: center;
+    color:  white;
+    background-color:#7f1734;
+    padding: 10px;
+    z-index: 1;
+}
 
+#iomtt {
+    width:100%;
+    opacity: 1;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+}
+
+#tt-welcome {
+    width: 75%;
+    background-color: #7f1734;
+    color: white;
+    border-radius: 2%;
+    float: right;
+    margin-top: 40px;
+    padding: 20px;
+    z-index: 2;
+}
+
+#camping-details {
+    height: 1100px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#booking-details {
+    height: 1100px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
 
 /* =============================================== CONTACT.HTML PAGE STYLING =============================================== */
 
