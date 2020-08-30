@@ -475,6 +475,14 @@ hr {
     z-index: 2;
 }
 
+#join-outer h1 {
+    font-size: 50px;
+}
+
+#join-outer h2 {
+    font-size: 35px;
+}
+
 #join-outer-left{
     height: 100%;
     width: 33.33%;
@@ -505,7 +513,7 @@ hr {
 }
 
 #training_one, #training_two, #subscriptions, #join-text-one, #join-text-two, #join-text-three {
-    width: 75%;
+    width: 400px;
     background-color: #7f1734;
     border-radius: 2%;
     margin: 0 auto;
@@ -515,11 +523,11 @@ hr {
 }
 
 #training_one, #training_two, #subscriptions {
-    height: 400px;
+    height: 300px;
 }
 
 #join-text-one, #join-text-two, #join-text-three {
-    height: 200px;
+    height: 150px;
 }
 
 #training {
