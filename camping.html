@@ -56,9 +56,67 @@
 
 <!-- =================================================== BOOKING FORM SECTION =================================================== -->
 
-<section id="booking-details">
+<section id="booking-container">
     <h1> Booking</h1> 
-    
+    <div id="booking-outer">
+            <div id="booking-outer-top">
+                <p>If you're interested in booking a camping lot for the TT festival complete the below form, provide basic requirements and contact information. If you have further questions please do not hesitate to a <a href="contact.html"> get in touch</a> with us.</p>
+            </div>
+            
+            <div id="booking-outer-middle">
+                <form id="booking-form">
+                    <label for="fname">First name</label><br>
+                    <input type="text" class="form-box" id="fname" name="fname"  placeholder="John" required>
+                    
+                    <label for="lname">Surname</label><br>
+                    <input type="text" class="form-box" id="lname" name="lname"  placeholder="Smith" required><br>
+                    
+                    <label for="stay-duration">How many nights do you need to camp? (Minimum 3, maximum 14)</label><br>
+                    <select name="stay-duration" id="stay-duration">
+                        <option>Please select your device type</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                    </select><br>
+                    
+                    <label for="campers">How many people are camping? (Maximum 6 per lot)</label><br>
+                    <select name="campers" id="campers">
+                        <option>Please select your device type</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                    </select><br>
+                    <label for="vehicles">Please proivde details of the vehicles, if any, that will be parked on site</label><br>
+                    <input type="text" class="form-box" id="vehicles" name="vehicles" placeholder="e.g. number of vehicles, type, approximate size"><br>
+                    
+                    <label for="other-info">Other Information</label><br>
+                    <input type="text" class="form-box" id="other-info" name="other-info" placeholder="If there is any other information relevant to your stay please let us know so we can accomdate you as best as we can"><br>
+
+                    <label for="email-address">Email</label><br>
+                    <input type="email" name="email-address" class="form-box" id="email-address" placeholder="Please input your email address so we can contact you" required><br>
+                    
+                    <br>
+                    <input type="submit" id="submit-button" value="Submit">
+                
+                </form>
+            </div>
+            
+            <div id="booking-outer-bottom">
+            
+            </div>
+        </div> 
 </section>
 
 
