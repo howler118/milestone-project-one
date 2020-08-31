@@ -212,35 +212,29 @@ footer h2 {
     position: relative;
 }
 
-#welcome-img img {
+#welcome h1 {
+    text-align: center;
+    color: white;
+    background-color:#7f1734;
+    padding: 10px;
+}
+
+welcome-outer {
+    height: 100%;
+    width: 100%;
+    color: #7f1734;
+    position: relative;
+
+}
+
+#welcome_background {
     height: 700px;
     width: 100%;
     opacity: 0.4;
     object-fit: cover;
-    object-position: 100% -400px;
+    object-position: 100% -500px;
     background-color: none;
 }
-
-#welcome-text {
-    height: 120px;
-    width: 100%;
-    position: absolute;
-    padding-left: 20px;    
-    background-color: #7f1734;
-    top: 0px;
-    padding-top: 10px;
-}
-
-#welcome-text h1 {
-    height: 130px;
-    width: 100%;
-    position: absolute;
-    color: white; 
-    font-size: 85px;
-    text-align: center;
-}
-
-
 
 /* =============================================== LATEST TEAM INFORMATION SECTION STYLING =============================================== */
 
@@ -1086,6 +1080,14 @@ hr {
     body {
         background-color: black;
     }
+
+
+    /* ==== INDEX.HTML ==== */
+
+    
+
+
+
 }
 
 /* =============================================== MOBILE PHONE SCREENS =============================================== */
