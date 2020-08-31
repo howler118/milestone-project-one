@@ -22,7 +22,7 @@ h1 {
     font-size: 75px;
 }
 
-/* =============================================== INDEX.HTML PAGE STYLING =============================================== */
+
 
 
 /* =============================================== HEADER SECTION STYLING =============================================== */
@@ -102,6 +102,107 @@ header a h1 {
     border-bottom: 1px solid #7f1734;
 }
 
+/* =============================================== FOOTER SECTION STYLING =============================================== */
+
+footer {
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    font-size: 40px;
+    padding-left: 40px;
+    padding-top: 10px;
+    border-top:10px solid #7f1734;
+}
+
+footer h2 {
+    text-align: left;
+    font-size: inherit;
+    position: relative;
+    margin-top: 20px;
+    float: left;
+}
+
+#nike_logo {
+    height: 72px;
+    position: relative;
+    margin-left: 150px;
+    margin-right: 100px;
+    float: left;
+}
+
+#quayside_tyres_logo {
+    height: 72px;
+    position: relative;
+    float: left;
+    margin-right: 100px;
+    margin-top: 1px;
+}
+
+#iomfa_logo {
+    height: 72px;
+    position: relative;
+    float: left;
+    margin-right: 75px;
+    margin-top: 1px;
+}
+
+#social_media_links {
+    list-style-type: none;
+    font-size: inherit;
+}
+
+#social_media_links h2 {
+    font-size: inherit;
+    margin-right: 40px;
+}
+
+#social_media_links a {
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+}
+
+#social_media_links h2 li {
+    position: relative;
+    float: right;
+    margin-left: 20px;
+    font-size: inherit;
+}
+
+/* =============================================== CLUB SHOP BANNER WITH LINK TO TRAINING GEAR STYLING =============================================== */
+
+#club_shop {
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #7f1734;
+}
+
+#club_shop_banner {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    padding-left: 50px;    
+    background-color: #7f1734;
+    top: 0px;
+    padding-top: 10px;
+}
+
+#club_shop_banner h1 a {
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #7f1734;
+    color: white;
+    font-size: 75px;
+    font-family: "Bebas Neue";
+    text-align: center;
+}
+
+/* =============================================== INDEX.HTML PAGE STYLING =============================================== */
+
 /* =============================================== WELCOME SECTION STYLING =============================================== */
 
 #welcome {
@@ -124,9 +225,8 @@ header a h1 {
     height: 120px;
     width: 100%;
     position: absolute;
-    padding-left: 50px;    
+    padding-left: 20px;    
     background-color: #7f1734;
-    opacity: 0.8;
     top: 0px;
     padding-top: 10px;
 }
@@ -540,105 +640,11 @@ hr {
 }
 
 
-/* =============================================== CLUB SHOP BANNER WITH LINK TO TRAINING GEAR STYLING =============================================== */
 
-#club_shop {
-    height: 100px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    background-color: #7f1734;
-}
 
-#club_shop_banner {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    padding-left: 50px;    
-    background-color: #7f1734;
-    top: 0px;
-    padding-top: 10px;
-}
-
-#club_shop_banner h1 a {
-    text-decoration: none;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    background-color: #7f1734;
-    color: white;
-    font-size: 75px;
-    font-family: "Bebas Neue";
-    text-align: center;
-}
-
-/* =============================================== FOOTER SECTION STYLING =============================================== */
-
-footer {
-    height: 100px;
-    width: 100%;
-    overflow: hidden;
-    font-size: 40px;
-    padding-left: 40px;
-    padding-top: 10px;
-    border-top:10px solid #7f1734;
-}
-
-footer h2 {
-    text-align: left;
-    font-size: inherit;
-    position: relative;
-    margin-top: 20px;
-    float: left;
-}
-
-#nike_logo {
-    height: 72px;
-    position: relative;
-    margin-left: 150px;
-    margin-right: 100px;
-    float: left;
-}
-
-#quayside_tyres_logo {
-    height: 72px;
-    position: relative;
-    float: left;
-    margin-right: 100px;
-    margin-top: 1px;
-}
-
-#iomfa_logo {
-    height: 72px;
-    position: relative;
-    float: left;
-    margin-right: 75px;
-    margin-top: 1px;
-}
-
-#social_media_links {
-    list-style-type: none;
-    font-size: inherit;
-}
-
-#social_media_links h2 {
-    font-size: inherit;
-    margin-right: 40px;
-}
-
-#social_media_links a {
-    text-decoration: none;
-    color: inherit;
-    font-size: inherit;
-}
-
-#social_media_links h2 li {
-    position: relative;
-    float: right;
-    margin-left: 20px;
-    font-size: inherit;
-}
 /* =============================================== CAMPING.HTML PAGE STYLING =============================================== */
+
+/* =============================================== TT CAMPING SECTION STYLING =============================================== */
 
 #tourist-trophy-container {
     height: 1100px;
@@ -698,6 +704,8 @@ footer h2 {
    
 }
 
+/* =============================================== CAMPING DETAILS SECTION STYLING =============================================== */
+
 #camping-details {
     height: 700px;
     width: 100%;
@@ -735,9 +743,7 @@ footer h2 {
     margin-right: 50px;
 }
 
-
-
-
+/* =============================================== BOOKING SECTION STYLING =============================================== */
 
 #booking-container {
     height: 1100px;
@@ -830,8 +836,9 @@ footer h2 {
    
 }
 
-
 /* =============================================== CONTACT.HTML PAGE STYLING =============================================== */
+
+/* =============================================== CONTACT DETAILS SECTION STYLING =============================================== */
 
 #contact-container {
     height: 750px;
@@ -914,6 +921,8 @@ footer h2 {
     left: 0px;
 }
 
+/* =============================================== FIND US SECTION STYLING =============================================== */
+
 #find-container {
     height: 1000px;
     width: 100%;
@@ -962,6 +971,7 @@ footer h2 {
     border-radius: 10px;
 }
 
+/* =============================================== FEEDBACK SECTION STYLING =============================================== */
 
 #feedback-container {
     height: 1100px;
