@@ -298,12 +298,12 @@ hr {
 }
 
 #last-match, #football-news{
-    width: 40%;
+    width: 50%;
     float: right;
 }
 
 #next-match, #league-table {
-    width: 40%;
+    width: 50%;
     float: left;
 }
 
@@ -1081,10 +1081,19 @@ hr {
         background-color: black;
     }
 
-
     /* ==== INDEX.HTML ==== */
+    header a h1 {
+        display: none;
+    }
 
-    
+    #welcome h1 {
+        text-align: center;
+        color: white;
+        background-color:#7f1734;
+        padding: 10px;
+        font-size: 40px;
+    }
+
 
 
 
