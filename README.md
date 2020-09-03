@@ -2,11 +2,49 @@
 
 <!--INSERT LINK TO PROJECT-->
 
-Union Mills Football club is football team from the Isle of Man
+Union Mills Football club is football team from the Isle of Man who currently complete in the men's 2nd Division. In addition to football, the club ground becomes a temporary campsite during the Isle of Man Tourist Trophy (TT) motorcycle festival (June) and the Manx Grand Prix (September) as tens of thousands of motorcycle enthusiasts come to the island and opt to camp, rather than book hotels (as it is considerably cheaper).
 
---------
+To ensure the club always has a strong squad of players, and that the club stays financially stable, a new website is required to try and attract new players to the club and encourage existsing players to stay as all players pay subscriptions which provides valuable income to the club.
+
+The website also would provide details of the campsite and a form to complete which facilitates booking of a camping lot. The camping provides a signifcant amount of income for the club and so a good website is key to attacting potential campers and making it easy to book a space.
+
 
 ## User Experience
+---
+## User stories
+#### External Users 
+- Members of Union Mills Football club
+- Football players who are non-members
+- Tourists visiting Isle of Man for TT Motorbike festival
+
+#### External User Goals
+
+##### UMFC Members
+
+- As a member, I want to easily find the fixture list so I know what games are coming up
+- As a member, if I wasn't present at the last game (or a specific match) I want to be able to see the results of all our matches
+- As a member, I want to see the current league table to see how the team is performing
+- As a member I want to know what time training takes place and the location (as it can change throughout the season)
+
+##### Footballers not currently playing for another team on the Isle of Man
+
+- As a footballer looking to join a club
+
+
+##### Tourists visiting IoM for TT festival
+
+- sdgerg
+
+
+#### Site Owner Goals
+
+
+
+## Design
+
+
+
+## Wireframes
 
 --------
 
@@ -83,7 +121,8 @@ The Background image in the "Interested in joining" section was obtained from he
 
 ### Acknowledgements
 
-
+css-tricks.com - help with form (select value)
+w3schools.com - used to look up various element tags
 
 --------
 --------
