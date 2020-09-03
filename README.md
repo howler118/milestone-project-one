@@ -19,30 +19,39 @@ The website also would provide details of the campsite and a form to complete wh
 
 #### External User Goals
 
-##### UMFC Members
+UMFC Members
 
 - As a member, I want to easily find the fixture list so I know what games are coming up
 - As a member, if I wasn't present at the last game (or a specific match) I want to be able to see the results of all our matches
 - As a member, I want to see the current league table to see how the team is performing
 - As a member I want to know what time training takes place and the location (as it can change throughout the season)
 
-##### Footballers not currently playing for another team on the Isle of Man
+Football players who are non-members
 
-- As a footballer looking to join a club
+- As a footballer looking to join the club, I want to know about when and where training takes place
+- As a footballer looking to join the club, I want to know about the price of subscriptions
+- As a footballer looking to join the club, I would be interesting to know about the club's history
+- As a footballer looking to join the club, I want to know where the club is 
 
+Tourists visiting IoM for TT festival
 
-##### Tourists visiting IoM for TT festival
-
-- sdgerg
+- As a TT camper, I want to know what facilities are available at the UMFC campsite
+- As a TT camper, I want to know how much it costs to camp at the UMFC campsite
+- As a TT camper, I enquire about availability
+- As a TT camper, I want to know how to find the campsite
 
 
 #### Site Owner Goals
 
-
+- As the site owner, I want to generate 
 
 ## Design
 
+Colour Scheme
 
+- The main colours used for the website were claret and white
+
+Typography
 
 ## Wireframes
 
