@@ -379,7 +379,7 @@ hr {
 
 /* =============================================== ABOUT SECTION STYLING =============================================== */
 #about-container {
-    height: 1500px;
+    height: 1700px;
     width: 100%;
     color: #7f1734;
     overflow: hidden;
@@ -460,33 +460,33 @@ hr {
 }
 
 #founded {
-    width: 40%;
+    width: 200px;
     position: absolute;
     bottom: 20%;
     right: 0px;
 }
 
 #managers {
-    width: 50%;
+    width: 200px;
     margin: 0 auto;
     padding-top: 10%;
 }
 
 #ground {
-    width: 40%;
+    width: 200px;
     position: absolute;
     top: 0px;
     right: 0px;
 }
 
 #honours {
-    width: 60%;
+    width: 300px;
     margin: 0 auto;
     padding-top: 10%;
 }
 
 #goalscorers {
-    width: 50%;
+    width: 250px;
     margin: 0 auto;
     padding-top: 10%;
 }
@@ -500,7 +500,7 @@ hr {
 }
 
 #appearances {
-    width: 60%;
+    width: 300px;
     margin: 0 auto;
     padding-top: 20%;
 }
@@ -514,7 +514,7 @@ hr {
 }
 
 #captain {
-    width: 40%;
+    width: 200px;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -525,7 +525,7 @@ hr {
 }
 
 #league-finish {
-    width: 50%;
+    width: 300px;
     position: absolute;
     bottom: 20%;
     left: 0px;
