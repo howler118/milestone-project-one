@@ -1145,16 +1145,53 @@ hr {
 
     /* ==== INDEX.HTML ==== */
    
+    #welcome {
+        height: 60px;
+    }
 
     #welcome h1 {
-        text-align: center;
-        color: white;
-        background-color:#7f1734;
-        padding: 10px;
         font-size: 40px;
     }
 
+    #welcome_background {
+        display: none;
+    }
     
+
+
+    #club-info {
+        background-color: white;
+        color: #7f1734;
+    }
+
+    #center-club-info {
+        display: none;
+    }
+
+    #left-club-info, #right-club-info {
+        width: 45%;
+    }
+
+    #last-match, #football-news, #next-match, #league-table{
+        width: 70%;
+    }
+
+    #club-info hr {
+        border-top: 1px solid #7f1734;
+    }
+
+    #last-match a:hover, #next-match a:hover, #football-news a:hover, #league-table a:hover  {
+        border-bottom: 1px solid #7f1734;
+    }
+
+
+
+
+
+
+
+
+
 }
 
 /* =============================================== MOBILE PHONE SCREENS =============================================== */
@@ -1168,16 +1205,56 @@ hr {
         font-size: 25px;
     }
 
+    
+    /* ==== HEADER ==== */
 
+   
+
+
+    /* ==== FOOTER ==== */
+    
     footer h2, #social_media_links{
         font-size: 20px;    
     }
-    
+   
+
     /* ==== CLUBSHOP BANNER ==== */
 
     #club_shop {
         height: 50px;
     }
 
+    /* ==== INDEX.HTML ==== */
+
+    #welcome {
+        height: 50px;
+    }
+
+    #welcome h1 {
+        font-size: 25px;
+    }
+
+    #club-info {
+        height: 800px;
+    }
+
+    #left-club-info, #right-club-info {
+        height: 350px;
+        width: 100%;
+        display: block;
+        float: left;
+        
+    }
+
+    #last-match, #football-news, #next-match, #league-table{
+        width: 60%;
+        float: left;
+        padding-left: 20%;
+    }
+
+
+
+
+    
 
 }
