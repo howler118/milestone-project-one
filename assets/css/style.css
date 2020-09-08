@@ -1227,63 +1227,6 @@ hr {
 
 
 
-    /*#vault-container {
-    height: 1000px;
-    width: 100%;
-    padding-top: 10px;
-    color: #7f1734;
-    overflow: hidden;
-    }
-
-    #vault-container h1 {
-        text-align: center;
-        color: inherit;
-        background-color:inherit;
-        padding: 10px;
-    }
-
-    #vault-outer {
-        height: 100%;
-        width: 100%;
-        color: #7f1734;
-        position: relative;
-    }
-
-    #vault-text {
-        margin-top: 30px;
-        margin-left: 100px;
-        margin-right: 100px;
-        position: relative;
-        z-index: 2;
-    }
-
-    #vault-text p {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        background-color: #7f1734;
-        color: white;
-        
-        padding: 20px;
-        border-radius: 10px;
-        opacity: 0.8;
-    }
-
-    #UMFC-trophy {
-        width:100%;
-        opacity: 0.4;
-        position: absolute;
-        z-index: 1;
-        top: 0px
-    }
-
-    #vault-text iframe {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        border: 10px solid #7f1734;
-    }
-
-    */
-
 
 
 
@@ -1303,8 +1246,19 @@ hr {
     
     /* ==== HEADER ==== */
 
-   
+    #menu a {
+        font-size: 25px;
+    }
 
+    #menu li:hover {
+        padding-bottom: 20px;
+        border-bottom: 1px solid #7f1734;
+    }
+
+    .active_page {
+        padding-bottom: 20px;
+        border-bottom: 1px solid #7f1734;
+    }
 
     /* ==== FOOTER ==== */
     
@@ -1352,7 +1306,9 @@ hr {
     }
 
 
-
+     #vault-container {
+        height: 1100px;
+    }
 
     
 
