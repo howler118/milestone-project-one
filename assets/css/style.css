@@ -1144,7 +1144,9 @@ hr {
 
 
     /* ==== INDEX.HTML ==== */
-   
+
+    /*WELCOME SECTION */
+
     #welcome {
         height: 60px;
     }
@@ -1157,7 +1159,7 @@ hr {
         display: none;
     }
     
-
+    /*LATEST TEAM INFO SECTION */
 
     #club-info {
         background-color: white;
@@ -1184,10 +1186,103 @@ hr {
         border-bottom: 1px solid #7f1734;
     }
 
+    /*FROM THE VAULT SECTION */
+
+    #vault-container {
+        height: 900px;
+        background-color: #7f1734;
+        color: white;
+        padding-top: 0px;
+    }
+
+    #vault-text iframe {
+        height: 295px;
+        width: 365px;
+        border: 5px solid white;
+    }
+
+    #vault-container h1 {
+        color: white;
+        background-color:#7f1734;
+    }
+
+    #vault-text p {
+        width: 100%;
+        background-color: #7f1734;
+        color: white;
+        border-radius: 0px;
+        opacity: 1;
+        margin: 0px;
+    }
+
+    #vault-text {
+        margin: 0px;
+        padding: 30px;
+    }
+
+    #UMFC-trophy {
+        display: none;
+    }
 
 
 
 
+    /*#vault-container {
+    height: 1000px;
+    width: 100%;
+    padding-top: 10px;
+    color: #7f1734;
+    overflow: hidden;
+    }
+
+    #vault-container h1 {
+        text-align: center;
+        color: inherit;
+        background-color:inherit;
+        padding: 10px;
+    }
+
+    #vault-outer {
+        height: 100%;
+        width: 100%;
+        color: #7f1734;
+        position: relative;
+    }
+
+    #vault-text {
+        margin-top: 30px;
+        margin-left: 100px;
+        margin-right: 100px;
+        position: relative;
+        z-index: 2;
+    }
+
+    #vault-text p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: #7f1734;
+        color: white;
+        
+        padding: 20px;
+        border-radius: 10px;
+        opacity: 0.8;
+    }
+
+    #UMFC-trophy {
+        width:100%;
+        opacity: 0.4;
+        position: absolute;
+        z-index: 1;
+        top: 0px
+    }
+
+    #vault-text iframe {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: 10px solid #7f1734;
+    }
+
+    */
 
 
 
@@ -1225,7 +1320,9 @@ hr {
     }
 
     /* ==== INDEX.HTML ==== */
-
+    
+    /*WELCOME SECTION */
+    
     #welcome {
         height: 50px;
     }
@@ -1233,6 +1330,8 @@ hr {
     #welcome h1 {
         font-size: 25px;
     }
+
+    /*LATEST TEAM INFO SECTION */
 
     #club-info {
         height: 800px;
