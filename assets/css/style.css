@@ -1224,11 +1224,86 @@ hr {
         display: none;
     }
 
+    /*ABOUT SECTION */
+
+    #about-container {
+        height: 2150px;
+    }
+
+    #about-container h1 {
+        text-align: center;
+        color: #7f1734;
+        background-color: white;
+        padding: 10px;
+    }
+
+    #about-top-left, #about-top-right, #about-top-center, #about-middle-left, #about-middle-right, #about-middle-center, #about-bottom-left, #about-bottom-right, #about-bottom-center {
+        width: 100%;
+        display: block;
+        float: left;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #about-top-right {
+        height: 100px;
+    }
+
+    #about-top-left {
+        margin-top: 20px;
+        height: 100px;
+    }
+
+    #about-top-center {
+        height: 300px;
+    }
+
+    #about-middle-left {
+        height: 400px;
+    }
+
+    #about-middle-right {
+        height: 400px;
+    }
+
+    #about-bottom-left {
+        height: 200px;
+    }
+
+    #about-bottom-right {
+        height: 300px;
+    }
+
+    #about-bottom-center {
+        height: 400px;
+    }
+
+    #founded, #league-finish, #honours, #managers, #goalscorers, #appearances, #captain, #ground {
+        width: 60%;
+        float: left;
+        padding-left: 20%;
+        top: 0px;
+        left: 0px;
+    }
+
+    #about-middle-center {
+        display: none;
+    }
+
+    #honours, #managers, #goalscorers, #appearances {
+        padding-top: 0px;
+    }
+    
+
+
+/*
+
+    
 
 
 
 
-
+*/
 
 }
 
@@ -1239,10 +1314,13 @@ hr {
         background-color: blue;
     }
 
-     h1, #club_shop_banner h1 a {
-        font-size: 25px;
+     h1 {
+        font-size: 35px;
     }
 
+     #club_shop_banner h1 a {
+        font-size: 25px;
+    }
     
     /* ==== HEADER ==== */
 
@@ -1310,6 +1388,5 @@ hr {
         height: 1100px;
     }
 
-    
 
 }
