@@ -109,7 +109,7 @@ footer {
     width: 100%;
     overflow: hidden;
     font-size: 30px;
-    border-top: 10px solid #7f1734;
+    border-top: 0px solid #7f1734;
 }
 
 footer h2 {
@@ -1107,6 +1107,8 @@ hr {
         font-size: 40px;
     }
 
+    
+
     /* ==== HEADER ==== */
 
     header a h1 {
@@ -1142,6 +1144,50 @@ hr {
         height: 75px;
     }
 
+    #club_shop_banner h1 a {
+        height: 100px;
+        background-color: lightcyan;
+        color: #7f1734;
+    }
+
+    #club_shop_banner {
+        height: 100%;
+        background-color: lightcyan;
+        color: #7f1734;
+    }
+
+
+    /*
+#club_shop {
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #7f1734;
+}
+
+#club_shop_banner {
+    height: 100%;
+    width: 100%;
+    position: absolute;    
+    background-color: #7f1734;
+    top: 0px;
+    padding-top: 10px;
+}
+
+#club_shop_banner h1 a {
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #7f1734;
+    color: white;
+    font-size: 75px;
+    font-family: "Bebas Neue";
+    text-align: center;
+}
+
+    */
 
     /* ==== INDEX.HTML ==== */
 
@@ -1294,11 +1340,51 @@ hr {
         padding-top: 0px;
     }
     
+    /*JOIN SECTION */
+
+    #join-container {
+        height: 1600px;
+        background-color: #7f1734;
+    }   
+
+     #join-container h1 {
+         font-size: 75px;
+    }
+
+    #join-container h2 {
+        font-size: 50px;
+    }
+
+    #join-outer-left, #join-outer-right, #join-outer-center {
+        width: 100%;
+        height: 400px;
+        display: block;
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        margin-bottom: 100px;
+    }
+
+    #training_one, #training_two, #subscriptions {
+        opacity: 1;
+        height: 375px;
+        width: 70%;
+        border: 10px solid white;
+        margin-bottom: 50px;
+    }
+
+    #training {
+        display: none;
+    }
+
+    #join-text-one, #join-text-two, #join-text-three {
+        display: none;
+
+
 
 
 /*
 
-    
 
 
 
@@ -1386,6 +1472,27 @@ hr {
 
      #vault-container {
         height: 1100px;
+    }
+    /* JOIN SECTION */
+
+    #join-container {
+        height: 1200px;
+    }   
+
+    #join-container h1 {
+        font-size: 50px;
+    }
+
+    #join-container h2 {
+        font-size: 25px;
+    }
+
+    #join-outer-left, #join-outer-right, #join-outer-center {
+        height: 250px;
+    }
+
+    #training_one, #training_two, #subscriptions {
+        height: 250px;
     }
 
 
