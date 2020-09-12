@@ -8,7 +8,7 @@ To ensure the club always has a strong squad of players, and that the club stays
 
 The website also would provide details of the campsite and a form to complete which facilitates booking of a camping lot. The camping provides a signifcant amount of income for the club and so a good website is key to attacting potential campers and making it easy to book a space.
 
-
+---
 ## User Experience
 ---
 ## User stories
@@ -71,9 +71,18 @@ Imagery
 ## Features
 
 ### Existing Features
-
+- YouTube video on the home page showing a highlight from UMFC 2011-12 season
+- Form on the TT camping page which allows users to submit booking enquiries
+- Form on the contact us page which allows users to submit feedback on the website
+- The website is responsive and works on all devices
+- A banner link which takes the user to the clubshop where they can buy UMFC training general
+- Links to the UMFC sponsor websites
+- link to the Isle of Man Football Association website
 
 ### Features left to implement
+
+- A gallery page with lots of photos of UMFC players and matches, past and present
+- A page for hiring out the clubhouse including a form to submit booking inquiries
 
 --------
 
@@ -104,7 +113,7 @@ Github was used to store the project
 
 - Balsamiq
 
-Was used to create my wireframe for the project
+Was used to create my wireframes for the project
 
 --------
 --------
@@ -152,9 +161,10 @@ how to resize background image?
 
 - My mentor for the feedback throughout the project at each mentor session
 - Code Institute for the course materials and general support
-- css-tricks.com - help with two forms
+- css-tricks.com - was used when I had issues styling background images. I was trying to add background images and reduce the opacity value but I could not get it to work initially. 
 - w3schools.com - used to quickley look up various element tags
-
+- stackoverflow - was used to see if other programmers were having similar problems with certain syntax. For example, initially I was struggling to position elements centrally within their container with "margin: 0 auto;". I could not figure out why it was not working as expected. I used stackover to see if other people faced a similar problem and what the common causes of this were.
+- Manchester United FC website (manutd.com) - gave me the idea for adding a website feedback section to the contact page
 --------
 --------
 --------
