@@ -43,17 +43,26 @@ Tourists visiting IoM for TT festival
 
 #### Site Owner Goals
 
-- As the site owner, I want to generate 
+- As the site owner, I want to generate income to sustain the club
+- As the site owner, I want to attract more players to the club
 
 ## Design
 
 Colour Scheme
 
-- The main colours used for the website were claret and white
+- The main colours used for the website were claret and white. Claret is the main colour on the UMFC football kit so it was important that it was a prominent color to be used throughout the website. Initially I used light cyan as the accompanying colour as it is the other colour on the UMFC football kit. However when it was used as the background colour, the claret coloured paragraph text was not easy to read so I opted to use white as the second colour. Light cyan was still used for the header.
 
 Typography
 
+- For the headings I used Bebas Neue. I came accross it after cyling through many fonts on Google Fonts. One of the suggested pairings (from Google Fonts) was Montserrat which worked well for the paragraphs of text so I decided to use it.
+
+Imagery
+
+- The images used were vital to the UX as they tell the user what the website (or specific page) is about without them having to read through the text. This is perhaps slightly less important for returning users who already know what the website/page is about. New users do not want to read all the text on a page to just to understand what the website is about.On the home page the first image you see is the large image of the football and football boot in the welcome section which instantly tells the user its a football website. On the TT camping page the first image you see is the motorcyclist so this would assure the site visitors looking for TT camping that they are in the right place.
+
 ## Wireframes
+
+
 
 --------
 
