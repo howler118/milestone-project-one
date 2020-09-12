@@ -13,6 +13,7 @@ The website also would provide details of the campsite and a form to complete wh
 ---
 ## User stories
 #### External Users 
+
 - Members of Union Mills Football club
 - Football players who are non-members
 - Tourists visiting Isle of Man for TT Motorbike festival
@@ -61,6 +62,7 @@ Imagery
 - The images used were vital to the UX as they tell the user what the website (or specific page) is about without them having to read through the text. This is perhaps slightly less important for returning users who already know what the website/page is about. New users do not want to read all the text on a page to just to understand what the website is about.On the home page the first image you see is the large image of the football and football boot in the welcome section which instantly tells the user its a football website. On the TT camping page the first image you see is the motorcyclist so this would assure the site visitors looking for TT camping that they are in the right place.
 
 ## Wireframes
+
 
 
 
@@ -123,24 +125,35 @@ Was used to create my wireframe for the project
 
 ### Code
 
+- Code Insitute course content and modules were 
+- w3schools was used to quickly look up 
+
 ### Content
+    
+how to resize background image?
+
+
 
 ### Media
 
-The background image for the "From the vault section" was obtained from the Union Mills FC private facebook pages
-
-The Background image in the "Welcome section" was obtained from here:
-
-<!--Inser the link here-->
-
-The Background image in the "Interested in joining" section was obtained from here:
-
-<!--Inser the link here-->
+- The football and boot image in the welcome section came from this [link](https://www.google.com/search?q=soccer+wallpapers&rlz=1C1CHBF_enIM911IM911&tbm=isch&source=iu&ictx=1&fir=vRYNl1mCYq6KrM%252COWUyXBn7TWteqM%252C_&vet=1&usg=AI4_-kTKYGZXgO0X8iQCMyfmV4CHuMh3EA&sa=X&ved=2ahUKEwiXhuSdtOPrAhVjlFwKHdw-AUAQ9QF6BAgKEF0&biw=1920&bih=937#imgrc=vRYNl1mCYq6KrM) 
+- The training image in the join section came from this [link](https://www.google.com/search?q=football+training+bayern&tbm=isch&ved=2ahUKEwjB9qfyrePrAhXZ44UKHSHJBjYQ2-cCegQIABAA&oq=football+training+bayern&gs_lcp=CgNpbWcQAzoCCAA6BggAEAgQHlCvzwJYytMCYP3UAmgAcAB4AIABZYgB8wOSAQM1LjGYAQCgAQGqAQtnd3Mtd2l6LWltZw&sclient=img&ei=MJxcX8GeOtnHlwShkpuwAw&safe=images&tbs=isz%3Alt%2Cislt%3Axga&hl=en-US#imgrc=oRzdLxj-eH0dsM)
+- The embedded video came from Paul Hatton's YouTube channel [link](https://www.youtube.com/watch?v=HCESTyQ0C4I)
+- The background image in the from the vault section came from the UMFC private Facebook page
+- The UMFC logo used throughout the website came from the UMFC private Facebook page
+- Nike logo came from [here](https://www.google.com/search?q=nike+logo&rlz=1C1CHBF_enIM911IM911&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj1wd6gwePrAhUKSBUIHbDzCnEQ_AUoAXoECBcQAw&biw=1920&bih=937#imgrc=_hxr4mhS9IAILM)
+- Quayside Tyres logo came from [here](https://www.google.com/search?q=quayside+tyres&rlz=1C1CHBF_enIM911IM911&source=lnms&tbm=isch&sa=X&ved=2ahUKEwju2fO8wePrAhXpShUIHcGtASYQ_AUoAXoECBsQAw&biw=1920&bih=937#imgrc=6gcYgEqqfL7FkM)
+- Isle of Man Football Association logo came from [here](https://www.google.com/search?q=iom+fa&rlz=1C1CHBF_enIM911IM911&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjPlKbZwePrAhU5SxUIHWqzCbYQ_AUoAXoECB8QAw&biw=1920&bih=937#imgrc=Q5JKrVfSZzA43M)
+- TT photo on the TT Camping page came from [here](https://www.google.com/search?q=iom+tt&rlz=1C1CHBF_enIM911IM911&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi_u5bmueTrAhUDWhUIHZNVBgoQ_AUoAXoECB8QAw&biw=1920&bih=937#imgrc=PcaPAkRMfxGImM)
+- The picture of the UMFC clubhouse came from the UMFC private Facebook page
+- Map of Douglas (on the contact us page, how to find us section) was as screenshot from Google Maps
 
 ### Acknowledgements
 
-css-tricks.com - help with form (select value)
-w3schools.com - used to look up various element tags
+- My mentor for the feedback throughout the project at each mentor session
+- Code Institute for the course materials and general support
+- css-tricks.com - help with two forms
+- w3schools.com - used to quickley look up various element tags
 
 --------
 --------
