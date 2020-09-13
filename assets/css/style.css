@@ -1399,9 +1399,6 @@ hr {
 
     /* FIND US SECTION */
 
-
-
-
     #find-container {
         height: 800px;
         background-color: #7f1734;
@@ -1414,7 +1411,7 @@ hr {
         padding: 10px;
     }
 
-    #find-container p, {
+    #find-container p {
         color:  white;
     }
 
@@ -1422,144 +1419,15 @@ hr {
         height: 300px;
     }
     
+    #UMFC_map {
+        border: 10px solid white;
+        width: 400px;
+    }
+
+
     /*
     
-    #contact-container {
-    height: 750px;
-    width: 100%;
-    overflow: hidden;
-}
-
-#contact-container p {
-    text-align: center;
-    color:  white;
-    background-color:#7f1734;
-    font-size: 20px;
-}
-
-#contact-outer {
-    height: 100%;
-    width: 100%;
-    position: relative;
-}
-
-#contact-container h1 {
-    text-align: center;
-    color:  white;
-    background-color:#7f1734;
-    padding: 10px;
-}
-
-#contact-container h2 {
-    text-align: center;
-    color:  white;
-    background-color:#7f1734;
-    font-size: 40px;
-}
-
-#contact-outer-left {
-    height: 100%;
-    width: 33.33%;
-    float:left;
-    position: relative;
-    z-index: 2;
-}
-
-#contact-outer-right {
-    height: 100%;
-    width: 33.33%;
-    float:right;
-    position: relative;
-    z-index: 2;
-}
-
-#contact-outer-center {
-    height: 100%;
-    width: 33.33%;
-    margin: 0 auto;
-    position: relative;
-    z-index: 2;
-}
-
-#contact-outer-left, #contact-outer-right, #contact-outer-center {
-    display: inline-block;
-    opacity: 0.9;
-}
-
-#email, #phone, #post {
-    width: 75%;
-    background-color: #7f1734;
-    border-radius: 2%;
-    margin: 0 auto;
-    margin-top: 40px;
-    padding: 20px;
-    z-index: 2;
-}
-
-#UMFC_clubhouse {
-    width:100%;
-    opacity: 0.3;
-    position: absolute;
-    z-index: 1;
-    top: 0px;
-    left: 0px;
-}
-
-
-
-
-
-
-
-    #find-container {
-        height: 1000px;
-        width: 100%;
-        overflow: hidden;
-    }
-
-    #find-container h1 {
-        text-align: center;
-        color:  white;
-        background-color:#7f1734;
-        padding: 10px;
-    }
-
-    #find-outer {
-        height: 100%;
-        width: 100%;
-        position: relative;
-    }
-
-    #find-outer-top {
-        height: 10%;
-        width: 80%;
-        margin: 0 auto;
-        padding: 20px;
-    }
-
-    #find-outer-middle {
-        height: 60%;
-        width: 100%;
-        position: relative;
-        clear: both;
-    }
-
-    #find-outer-bottom {
-        height: 10%;
-        width: 80%;
-        margin: 0 auto;
-        padding: 20px;
-        text-align: center;
-    }
-
-    #UMFC_map {
-        display: block;
-        width: 40%;
-        margin: 0 auto;
-        border: 10px solid #7f1734;
-        border-radius: 10px;
-    }
-
+    
    
     */
     
