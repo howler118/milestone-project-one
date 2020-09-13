@@ -1672,9 +1672,52 @@ hr {
         border: 10px solid white;
         width: 200px;
     }
+    
+    /* FEEDBACK SECTION */
+    
+    #feedback-container {
+        height: 1050px;
+    }
+    
+    #feedback-outer-top {
+         height: 200px;
+    }
+    
+    .form-box, .form-box:hover {
+        width: 220px; 
+    }
+
+
+
 
     /*
     
+    
+
+    #feedback-container {
+        background-color: white;
+    }
+
+    #feedback-container h1{
+        color: #7f1734;
+        background-color: white;
+    }
+
+    #feedback-container p{
+        font-size: 15px;
+    }
+
+    #feedback-outer-top, #feedback-outer-middle, #feedback-outer-bottom {
+        width: 80%;
+    }
+
+    #feedback-form, #submit-button {
+        font-size: 15px;
+    }
+
+    .form-box, .form-box:hover {
+        width: 600px; 
+    }
     
     
         
