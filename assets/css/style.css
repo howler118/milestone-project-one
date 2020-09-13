@@ -1316,7 +1316,7 @@ hr {
         background-color: #7f1734;
     }   
 
-     #join-container h1 {
+    #join-container h1 {
          font-size: 75px;
     }
 
@@ -1350,7 +1350,21 @@ hr {
         display: none;
     }
     
-    /* ==== INDEX.HTML ==== */
+    /* ==== CAMPING.HTML ==== */
+
+
+  
+    /*
+    
+
+    
+        
+    
+    */
+
+
+
+    /* ==== CONTACT.HTML ==== */
 
     /*CONTACT SECTION */
 
@@ -1451,118 +1465,7 @@ hr {
         width: 600px; 
     }
 
-    
-    /*
-    
-
-    #feedback-container {
-        height: 1100px;
-        width: 100%;
-        overflow: hidden;
-    }
-
-    #feedback-container h1 {
-        text-align: center;
-        color:  white;
-        background-color:#7f1734;
-        padding: 10px;
-    }
-
-    #feedback-container p {
-        margin-top: 20px;
-    }
-
-    #feedback-outer {
-        height: 100%;
-        width: 100%;
-        position: relative;
-    }
-
-    #feedback-outer-top {
-        width: 50%;
-        height: 10%;
-        margin: 0 auto;
-    }
-
-    #feedback-outer-middle {
-        width: 50%;
-        height: 70%;
-        margin: 0 auto;
-    }
-
-    #feedback-outer-bottom {
-        width: 100%;
-        height: 10%;
-    }
-
-    #feedback-form, #submit-button {
-        font-family: "Montserrat";
-        font-size: 20px;
-    }
-
-    #feedback-form label {
-        margin-bottom: 20px;
-    }
-
-    .form-box {
-        box-sizing: border-box;
-        width: 900px; 
-        height: 100px;
-        border: 1px solid #7f1734;
-        border-radius: 5px;
-        margin-bottom: 20px;
-        padding: 5px
-    }
-
-    .form-box:hover {
-        box-sizing: border-box;
-        width: 900px; 
-        height: 100px;
-        border: 2px solid #7f1734;
-        border-radius: 4px;
-        margin-bottom: 20px;
-        padding: 5px
-    }
-
-    #form-summary, #form-device, #form-browser, #form-device-info, #email-address {
-        padding: 5px;
-        height: 40px;
-        display: block;
-    }
-
-    #form-device, #form-browser {
-        border: 1px solid #7f1734;
-        border-radius: 5px;
-        margin-bottom: 20px;
-        padding: 5px;
-    }
-
-    #form-device:hover, #form-browser:hover {
-        border: 2px solid #7f1734;
-        border-radius: 10px;
-        margin-bottom: 20px;
-    
-    }
-
-    #submit-button {
-        height: 50px;
-        width: 100px;
-        border: 1px solid #7f1734;
-        border-radius: 5px;
-    }
-
-    #submit-button:hover {
-        height: 50px;
-        width: 100px;
-        background-color: #7f1734;
-        color: white;
-        border: 1px solid #7f1734;
-        border-radius: 5px;
-    }
-        
-    
-    */
-    
+      
 }
 
 /* =============================================== MOBILE PHONE SCREENS =============================================== */
@@ -1712,6 +1615,80 @@ hr {
     #training_one, #training_two, #subscriptions {
         height: 200px;
     }
+
+
+    /* ==== CAMPING.HTML ==== */
+
+
+  
+    
+
+
+
+    /* ==== CONTACT.HTML ==== */
+
+    /*CONTACT SECTION */
+    
+    #contact-container {
+        height: 500px;
+    }
+
+    #contact-container h2 {
+        font-size: 25px;
+    }
+    
+    #contact-container p {
+        font-size: 15px;
+    }
+
+    #contact-outer-left {
+        height: 130px;  
+    }
+
+    #contact-outer-right {
+        height: 60px;
+    }
+    
+    #contact-outer-center {
+        height: 40px;
+    }
+    
+    /*FIND US SECTION */
+    
+
+
+
+
+    /*
+    
+    #find-container {
+        height: 800px;
+        background-color: #7f1734;
+    }
+
+    #find-container h1 {
+        text-align: center;
+        color:  white;
+        background-color:#7f1734;
+        padding: 10px;
+    }
+
+    #find-container p {
+        color:  white;
+    }
+
+    #find-outer-top, #find-outer-middle {
+        height: 300px;
+    }
+    
+    #UMFC_map {
+        border: 10px solid white;
+        width: 400px;
+    }
+    
+        
+    
+    */
 
 
 }
