@@ -1656,35 +1656,26 @@ hr {
     /*FIND US SECTION */
     
 
+    #find-container p {
+        font-size: 15px;
+    }
 
+    #find-outer-top {
+        height: 400px;
+    }
 
+    #find-outer-middle {
+        height: 200px;
+    }
+
+    #UMFC_map {
+        border: 10px solid white;
+        width: 200px;
+    }
 
     /*
     
-    #find-container {
-        height: 800px;
-        background-color: #7f1734;
-    }
-
-    #find-container h1 {
-        text-align: center;
-        color:  white;
-        background-color:#7f1734;
-        padding: 10px;
-    }
-
-    #find-container p {
-        color:  white;
-    }
-
-    #find-outer-top, #find-outer-middle {
-        height: 300px;
-    }
     
-    #UMFC_map {
-        border: 10px solid white;
-        width: 400px;
-    }
     
         
     
