@@ -1348,8 +1348,51 @@ hr {
 
     #join-text-one, #join-text-two, #join-text-three {
         display: none;
+    }
+    
+
+    #contact-container {
+        height: 700px;
+        background-color: #7f1734;
+    }
+
+    #contact-outer-left, #contact-outer-right, #contact-outer-center {
+        display: block;
+        width: 100%;
+        opacity: 1;
+        float:left;
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+
+    #contact-outer-left {
+        height: 200px;
+    }
+
+    #contact-outer-right {
+        height: 100px;
+    }
+    
+    #contact-outer-center {
+        height: 50px;
+    }
+    
+    #email, #phone, #post {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    #UMFC_clubhouse {
+        display: none;
+    }
 
 
+    /*
+   
+
+   
+    */
+    
 }
 
 /* =============================================== MOBILE PHONE SCREENS =============================================== */
