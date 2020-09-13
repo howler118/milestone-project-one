@@ -344,7 +344,7 @@ hr {
 /* =============================================== FROM THE VAULT SECTION STYLING =============================================== */
 
 #vault-container {
-    height: 1000px;
+    height: 1100px;
     width: 100%;
     padding-top: 10px;
     color: #7f1734;
@@ -1157,38 +1157,6 @@ hr {
     }
 
 
-    /*
-#club_shop {
-    height: 100px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    background-color: #7f1734;
-}
-
-#club_shop_banner {
-    height: 100%;
-    width: 100%;
-    position: absolute;    
-    background-color: #7f1734;
-    top: 0px;
-    padding-top: 10px;
-}
-
-#club_shop_banner h1 a {
-    text-decoration: none;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    background-color: #7f1734;
-    color: white;
-    font-size: 75px;
-    font-family: "Bebas Neue";
-    text-align: center;
-}
-
-    */
-
     /* ==== INDEX.HTML ==== */
 
     /*WELCOME SECTION */
@@ -1273,7 +1241,7 @@ hr {
     /*ABOUT SECTION */
 
     #about-container {
-        height: 2150px;
+        height: 1900px;
     }
 
     #about-container h1 {
@@ -1292,36 +1260,37 @@ hr {
     }
 
     #about-top-right {
-        height: 100px;
+        height: 80px;
     }
 
     #about-top-left {
         margin-top: 20px;
-        height: 100px;
+        height: 80px;
     }
 
     #about-top-center {
-        height: 300px;
+        height: 245px;
     }
 
     #about-middle-left {
-        height: 400px;
+        height: 370px;
     }
 
     #about-middle-right {
-        height: 400px;
+        height: 370px;
     }
 
     #about-bottom-left {
-        height: 200px;
+        height: 170px;
     }
 
     #about-bottom-right {
-        height: 300px;
+        height: 240px;
     }
 
     #about-bottom-center {
-        height: 400px;
+        height: 250px;
+        background-color:antiquewhite;
     }
 
     #founded, #league-finish, #honours, #managers, #goalscorers, #appearances, #captain, #ground {
@@ -1330,6 +1299,7 @@ hr {
         padding-left: 20%;
         top: 0px;
         left: 0px;
+        margin-top: 20px;
     }
 
     #about-middle-center {
@@ -1343,7 +1313,7 @@ hr {
     /*JOIN SECTION */
 
     #join-container {
-        height: 1600px;
+        height: 1650px;
         background-color: #7f1734;
     }   
 
@@ -1401,7 +1371,7 @@ hr {
     }
 
      h1 {
-        font-size: 35px;
+        font-size: 25px;
     }
 
      #club_shop_banner h1 a {
@@ -1411,7 +1381,7 @@ hr {
     /* ==== HEADER ==== */
 
     #menu a {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     #menu li:hover {
@@ -1446,13 +1416,13 @@ hr {
     }
 
     #welcome h1 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     /*LATEST TEAM INFO SECTION */
 
     #club-info {
-        height: 800px;
+        height: 900px;
     }
 
     #left-club-info, #right-club-info {
@@ -1460,7 +1430,7 @@ hr {
         width: 100%;
         display: block;
         float: left;
-        
+        margin-bottom: 30px;
     }
 
     #last-match, #football-news, #next-match, #league-table{
@@ -1469,10 +1439,40 @@ hr {
         padding-left: 20%;
     }
 
+    /* FROM THE VAULT SECTION */
 
-     #vault-container {
+    #vault-text p {
+        font-size: 15px;
+    }
+
+    #vault-text iframe {
+        height: 255px;
+        width: 325px;
+        border: 5px solid white;
+    }
+
+    #vault-container {
         height: 1100px;
     }
+
+    /* ABOUT SECTION */
+
+    #about-container {
+        height: ;
+    }
+
+    #about-container h2 {
+        font-size: 20px;
+    }
+
+    #about-container p, #about-container ol li {
+        font-size: 15px;
+    }
+
+    #about-top-left, #about-top-right, #about-top-center, #about-middle-left, #about-middle-right, #about-middle-center, #about-bottom-left, #about-bottom-right, #about-bottom-center {
+        margin-bottom: 20px;
+    }
+
     /* JOIN SECTION */
 
     #join-container {
