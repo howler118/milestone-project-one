@@ -1290,7 +1290,6 @@ hr {
 
     #about-bottom-center {
         height: 250px;
-        background-color:antiquewhite;
     }
 
     #founded, #league-finish, #honours, #managers, #goalscorers, #appearances, #captain, #ground {
@@ -1351,16 +1350,6 @@ hr {
         display: none;
 
 
-
-
-/*
-
-
-
-
-
-*/
-
 }
 
 /* =============================================== MOBILE PHONE SCREENS =============================================== */
@@ -1407,6 +1396,10 @@ hr {
         height: 50px;
     }
 
+    #club_shop span {
+        display: none;
+    }
+
     /* ==== INDEX.HTML ==== */
     
     /*WELCOME SECTION */
@@ -1419,10 +1412,15 @@ hr {
         font-size: 20px;
     }
 
+    #welcome h1 span {
+        display: none;
+    }
+
+
     /*LATEST TEAM INFO SECTION */
 
     #club-info {
-        height: 900px;
+        height: 1000px;
     }
 
     #left-club-info, #right-club-info {
@@ -1430,7 +1428,7 @@ hr {
         width: 100%;
         display: block;
         float: left;
-        margin-bottom: 30px;
+        margin-bottom: 150px;
     }
 
     #last-match, #football-news, #next-match, #league-table{
@@ -1446,8 +1444,8 @@ hr {
     }
 
     #vault-text iframe {
-        height: 255px;
-        width: 325px;
+        height: 150px;
+        width: 200px;
         border: 5px solid white;
     }
 
@@ -1458,7 +1456,7 @@ hr {
     /* ABOUT SECTION */
 
     #about-container {
-        height: ;
+        height: 2100px;
     }
 
     #about-container h2 {
@@ -1480,11 +1478,11 @@ hr {
     }   
 
     #join-container h1 {
-        font-size: 50px;
+        font-size: 35px;
     }
 
     #join-container h2 {
-        font-size: 25px;
+        font-size: 15px;
     }
 
     #join-outer-left, #join-outer-right, #join-outer-center {
