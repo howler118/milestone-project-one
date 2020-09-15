@@ -1384,8 +1384,13 @@ hr {
     /* CAMPING INFO SECTION */
 
     #camping-details {
-        height: 1000px;
+        height: 800px;
         background-color: white;
+    }
+
+    #camping-details h1 {
+        background-color: white;
+        color: #7f1734;
     }
 
     #camping-outer {
@@ -1397,50 +1402,20 @@ hr {
         float:left;
         margin-left: 100px;
         margin-right: 0px;
+        margin-bottom: 20px;
     }
 
     #camping-outer h2 {
         font-size: 40px;
     }
 
+
+    /* CAMPING INFO SECTION */
+    
+    
     /*
     
-    #camping-details {
-        height: 700px;
-        width: 100%;
-        overflow: hidden;
-        position: relative;
-        background-color: #7f1734;
-    }
-
-    #camping-outer {
-        width: 100%;
-        position: relative;
-        color: white;
-    }
-
-    #camping-outer li {
-        font-size: 25px;
-        margin-left: 30px;
-    }
-
-    #camping-outer h2 {
-        font-size: 70px;
-    }
-
-    #camping-outer-left {
-        width: 550px;
-        float: left;
-        position: relative;
-        margin-left: 200px;
-    }
-
-    #camping-outer-right {
-        width: 550px;
-        float: right;
-        position: relative;
-        margin-right: 50px;
-    }
+    
     
         
     
