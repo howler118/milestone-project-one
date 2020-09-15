@@ -254,7 +254,6 @@ welcome-outer {
     opacity: 0.4;
     object-fit: cover;
     object-position: 100% -500px;
-    background-color: none;
 }
 
 /* =============================================== LATEST TEAM INFORMATION SECTION STYLING =============================================== */
@@ -299,7 +298,7 @@ welcome-outer {
 
 hr {
     border-top: 1px solid white;
-    width: 1005;
+    width: 100%;
     margin: 2px 0;
 }
 
@@ -422,7 +421,7 @@ hr {
 
 #about-outer hr {
     border-top: 1px solid #7f1734;
-    width: 1005;
+    width: 100%;
     margin: 2px 0;
 }
 
