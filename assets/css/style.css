@@ -1143,14 +1143,14 @@ hr {
 
     #club_shop_banner h1 a {
         height: 100px;
-        background-color: lightcyan;
-        color: #7f1734;
+        background-color:  #7f1734;
+        color: white;
     }
 
     #club_shop_banner {
         height: 100%;
-        background-color: lightcyan;
-        color: #7f1734;
+        background-color:  #7f1734;
+        color: white;
     }
 
 
@@ -1815,24 +1815,16 @@ hr {
     /* FEEDBACK SECTION */
     
     #feedback-container {
-        height: 1050px;
+        height: 1100px;
     }
     
     #feedback-outer-top {
         height: 200px;
+        margin-bottom: 25px;
     }
     
     .form-box, .form-box:hover {
         width: 220px; 
     }
-
-
-
-
-    /*
-   
-    
-    */
-
 
 }
