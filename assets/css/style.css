@@ -1352,11 +1352,95 @@ hr {
     
     /* ==== CAMPING.HTML ==== */
 
+    /* TOURIST TROPHY SECTION */
 
-  
+    #tourist-trophy-container {
+        height: 750px;
+    }
+
+    #iomtt, #tt-welcome {
+        display: block;
+        float: left;
+        clear:both;
+    }
+
+    #tt-welcome {
+        width: 100%;
+        margin-top: 400px;
+        border-radius: 0px;
+    }
+    
+    #tt-welcome h2 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    #tt-welcome p {
+        font-size: 25px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    /* CAMPING INFO SECTION */
+
+    #camping-details {
+        height: 1000px;
+        background-color: white;
+    }
+
+    #camping-outer {
+        color: #7f1734;
+    }
+
+    #camping-outer-left, #camping-outer-right {
+        display: block;
+        float:left;
+        margin-left: 100px;
+        margin-right: 0px;
+    }
+
+    #camping-outer h2 {
+        font-size: 40px;
+    }
+
     /*
     
+    #camping-details {
+        height: 700px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        background-color: #7f1734;
+    }
 
+    #camping-outer {
+        width: 100%;
+        position: relative;
+        color: white;
+    }
+
+    #camping-outer li {
+        font-size: 25px;
+        margin-left: 30px;
+    }
+
+    #camping-outer h2 {
+        font-size: 70px;
+    }
+
+    #camping-outer-left {
+        width: 550px;
+        float: left;
+        position: relative;
+        margin-left: 200px;
+    }
+
+    #camping-outer-right {
+        width: 550px;
+        float: right;
+        position: relative;
+        margin-right: 50px;
+    }
     
         
     
