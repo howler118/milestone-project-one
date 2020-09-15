@@ -1410,14 +1410,141 @@ hr {
     }
 
 
-    /* CAMPING INFO SECTION */
+    /* BOOKING SECTION */
     
+    #booking-container {
+        height: 1100px;
+        background-color: #7f1734;
+    }
+
+    #booking-container h1 {
+        background-color: #7f1734;
+        color: white;
+    }
+
+    #booking-container p {
+        background-color: white;
+    }
+
+    #booking-outer {
+        background-color: white;
+    }
+
+    #booking-outer-top {
+        width: 80%;
+    }
+
+    #booking-outer-middle {
+        width: 80%;
+    }
+
+    #booking-outer-bottom {
+        width: 80%;
+    }
+
+    #booking-outer-top {
+        padding-top: 20px;
+        width: 80%;
+        height: 20%;
+    }
+
+    #booking-form {
+        font-size: 15px;
+    }
     
     /*
     
-    
-    
+    #booking-container {
+        height: 1100px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+
+    #booking-container h1 {
+        text-align: center;
+        color: #7f1734;
+        background-color:white;
+        padding: 10px;
+    }
+
+    #booking-container p {
+        margin-top: 20px;
+    }
+
+
+    #booking-outer {
+        height: 100%;
+        width: 100%;
+        position: relative;
+    }
+
+    #booking-outer-top {
+        width: 50%;
+        height: 10%;
+        margin: 0 auto;
+    }
+
+    #booking-outer-middle {
+        width: 50%;
+        height: 70%;
+        margin: 0 auto;
+    }
+
+    #booking-outer-bottom {
+        width: 100%;
+        height: 10%;
+    }
+
+    #booking-form, #submit-button {
+        font-family: "Montserrat";
+        font-size: 20px;
+    }
+
+    #booking-form label {
+        margin-bottom: 20px;
+    }
+
+    .form-box {
+        box-sizing: border-box;
+        width: 900px; 
+        height: 100px;
+        border: 1px solid #7f1734;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        padding: 5px
+    }
+
+    .form-box:hover {
+        box-sizing: border-box;
+        width: 900px; 
+        height: 100px;
+        border: 2px solid #7f1734;
+        border-radius: 4px;
+        margin-bottom: 20px;
+        padding: 5px
+    }
+
+    #fname, #lname, #email-address {
+        padding: 5px;
+        height: 40px;
+        display: block;
+    }
+
+    #stay-duration, #campers {
+        border: 1px solid #7f1734;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        padding: 5px;
+    }
+
+    #stay-duration:hover, #campers:hover {
+        border: 2px solid #7f1734;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
         
+            
     
     */
 
@@ -1739,7 +1866,7 @@ hr {
     }
     
     #feedback-outer-top {
-         height: 200px;
+        height: 200px;
     }
     
     .form-box, .form-box:hover {
@@ -1750,36 +1877,7 @@ hr {
 
 
     /*
-    
-    
-
-    #feedback-container {
-        background-color: white;
-    }
-
-    #feedback-container h1{
-        color: #7f1734;
-        background-color: white;
-    }
-
-    #feedback-container p{
-        font-size: 15px;
-    }
-
-    #feedback-outer-top, #feedback-outer-middle, #feedback-outer-bottom {
-        width: 80%;
-    }
-
-    #feedback-form, #submit-button {
-        font-size: 15px;
-    }
-
-    .form-box, .form-box:hover {
-        width: 600px; 
-    }
-    
-    
-        
+   
     
     */
 
