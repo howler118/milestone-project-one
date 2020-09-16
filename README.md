@@ -1,16 +1,17 @@
 # Milestone project one - Union Mills FC
 
-https://github.com/howler118/milestone-project-one
-
 Union Mills Football club is football team from the Isle of Man who currently complete in the men's 2nd Division. In addition to football, the club ground becomes a temporary campsite during the Isle of Man Tourist Trophy (TT) motorcycle festival (June) and the Manx Grand Prix (September) as tens of thousands of motorcycle enthusiasts come to the island and opt to camp, rather than book hotels (as it is considerably cheaper).
 
 To ensure the club always has a strong squad of players, and that the club stays financially stable, a new website is required to try and attract new players to the club and encourage existsing players to stay as all players pay subscriptions which provides valuable income to the club.
 
 The website also would provide details of the campsite and a form to complete which facilitates booking of a camping lot. The camping provides a signifcant amount of income for the club and so a good website is key to attacting potential campers and making it easy to book a space.
 
+[Click here to access the Git Repository](https://github.com/howler118/milestone-project-one)
+
+[Click here to view the live website](https://howler118.github.io/milestone-project-one)
+
 ---
-## User Experience
----
+# User Experience
 ## User stories
 #### External Users 
 
@@ -63,8 +64,7 @@ Imagery
 
 ## Wireframes
 
-
-
+The Wireframe for the website is saved in the repository [here](README.md)
 
 --------
 
@@ -265,39 +265,55 @@ Error 2 I had difficulty clearing. If I removed the h2 element it created alignm
 
 ## Further Testing
 
-Different Internet browsers
+1) The website was tested on three different internet browsers
+    - Google Chrome
+    - Microsoft Edge
+    - Internet Explorer 11
 
+2) All links on the website were clicked on to make sure they work as expected
 
-
-
-Different devices
-
-
-
-
+3) The website viewed (all pages) on various mobile and tablet devices by using the Inspect feature. The following devices were tested
+    - Moto G4
+    - Galaxy S5
+    - Pixel 2
+    - Pixel 2L
+    - iPhone 5/SE
+    - iPhone 6/7/8
+    - iPhone 6/7/8 plus
+    - iPhone X 
+    - iPad
+    - iPad Pro
+    - Surface Duo
+    - Galaxy Fold
 
 ## Known Bugs
 
-None that I am aware of
-
+1) When opening the live website on Internet Explorer 11, the background picture in the Welcome section on the home page appears stretched
+2) When viewing the TT camping page on various mobile devices, part of the text in the top section is cut off on the right hand side
+3) When viewing the Contact US page on Microsoft Edge, there does not appear to be any gap/margin between the map and the text underneath
 --------
 ## Deployment
-
-
-
+#### GitHub Pages
+The following steps were taken to deploy the project in Github Pages
+1) Logged into Github
+2) Went to the repository for my milestone project one
+3) Clicked on settings
+4) scrolled down to GitHub pages
+5) Underneath the "source" heading change "none" to "master" and click save.
+6) After saving refresh the page (if it does not automatically) and then the link to the live website will be 
 --------
 ## Credits
 
 ### Code
 
-- Code Insitute course content and modules were 
-- w3schools was used to quickly look up 
+- css-tricks.com - was used when I had issues styling background images. I was trying to add background images and reduce the opacity value but I could not get it to work initially. 
+- w3schools.com - used to quickley look up various element tags
+- Code Institute for the course materials and general support
+- stackoverflow - was used to see if other programmers were having similar problems with certain syntax. For example, initially I was struggling to position elements centrally within their container with "margin: 0 auto;". I could not figure out why it was not working as expected. I used stackover to see if other people faced a similar problem and what the common causes of this were.
 
 ### Content
     
-how to resize background image?
-
-
+All content was written by the developer
 
 ### Media
 
@@ -317,58 +333,6 @@ how to resize background image?
 
 - My mentor for the feedback throughout the project at each mentor session
 - Code Institute for the course materials and general support
-- css-tricks.com - was used when I had issues styling background images. I was trying to add background images and reduce the opacity value but I could not get it to work initially. 
-- w3schools.com - used to quickley look up various element tags
-- stackoverflow - was used to see if other programmers were having similar problems with certain syntax. For example, initially I was struggling to position elements centrally within their container with "margin: 0 auto;". I could not figure out why it was not working as expected. I used stackover to see if other people faced a similar problem and what the common causes of this were.
+- Union Mills Football Club for the use of the logo and other media
+- Paul Hatton for the use of his UMFC video on YouTube
 - Manchester United FC website (manutd.com) - gave me the idea for adding a website feedback section to the contact page
---------
---------
---------
---------
---------
---------
---------
---------
-
-
-
-
-<img src="assets/images/UMFC_logo.jpg" style="margin: 0;">
-
-Welcome howler118,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
