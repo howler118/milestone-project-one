@@ -10,7 +10,7 @@ The website also would provide details of the campsite and a form to complete wh
 
 [Click here to view the live website](https://howler118.github.io/milestone-project-one)
 
----
+
 # User Experience
 ## User stories
 #### External Users 
@@ -21,26 +21,23 @@ The website also would provide details of the campsite and a form to complete wh
 
 #### External User Goals
 
-UMFC Members
+- UMFC Members
+    - As a member, I want to easily find the fixture list so I know what games are coming up
+    - As a member, if I wasn't present at the last game (or a specific match) I want to be able to see the results of all our matches
+    - As a member, I want to see the current league table to see how the team is performing
+    - As a member I want to know what time training takes place and the location (as it can change throughout the season)
 
-- As a member, I want to easily find the fixture list so I know what games are coming up
-- As a member, if I wasn't present at the last game (or a specific match) I want to be able to see the results of all our matches
-- As a member, I want to see the current league table to see how the team is performing
-- As a member I want to know what time training takes place and the location (as it can change throughout the season)
+- Football players who are non-members
+    - As a footballer looking to join the club, I want to know about when and where training takes place
+    - As a footballer looking to join the club, I want to know about the price of subscriptions
+    - As a footballer looking to join the club, I would be interesting to know about the club's history
+    - As a footballer looking to join the club, I want to know where the club is 
 
-Football players who are non-members
-
-- As a footballer looking to join the club, I want to know about when and where training takes place
-- As a footballer looking to join the club, I want to know about the price of subscriptions
-- As a footballer looking to join the club, I would be interesting to know about the club's history
-- As a footballer looking to join the club, I want to know where the club is 
-
-Tourists visiting IoM for TT festival
-
-- As a TT camper, I want to know what facilities are available at the UMFC campsite
-- As a TT camper, I want to know how much it costs to camp at the UMFC campsite
-- As a TT camper, I enquire about availability
-- As a TT camper, I want to know how to find the campsite
+- Tourists visiting IoM for TT festival
+    - As a TT camper, I want to know what facilities are available at the UMFC campsite
+    - As a TT camper, I want to know how much it costs to camp at the UMFC campsite
+    - As a TT camper, I enquire about availability
+    - As a TT camper, I want to know how to find the campsite
 
 
 #### Site Owner Goals
@@ -48,7 +45,7 @@ Tourists visiting IoM for TT festival
 - As the site owner, I want to generate income to sustain the club
 - As the site owner, I want to attract more players to the club
 
-## Design
+# Design
 
 Colour Scheme
 
@@ -56,19 +53,17 @@ Colour Scheme
 
 Typography
 
-- For the headings I used Bebas Neue. I came accross it after cyling through many fonts on Google Fonts. One of the suggested pairings (from Google Fonts) was Montserrat which worked well for the paragraphs of text so I decided to use it.
+- For the headings I used Bebas Neue. I came accross it after cyling through many fonts on Google Fonts. It is quite a striking font mostly due to being capitalised and works well as the the font for headings. One of the suggested pairings (from Google Fonts) was Montserrat which worked well for the paragraphs of text so I decided to use it.
 
 Imagery
 
 - The images used were vital to the UX as they tell the user what the website (or specific page) is about without them having to read through the text. This is perhaps slightly less important for returning users who already know what the website/page is about. New users do not want to read all the text on a page to just to understand what the website is about.On the home page the first image you see is the large image of the football and football boot in the welcome section which instantly tells the user its a football website. On the TT camping page the first image you see is the motorcyclist so this would assure the site visitors looking for TT camping that they are in the right place.
 
-## Wireframes
+ Wireframes
 
-The Wireframe for the website is saved in the repository [here](README.md)
+- The Wireframe for the website is saved in the repository [here](README.md)
 
---------
-
-## Features
+# Features
 
 ### Existing Features
 - YouTube video on the home page showing a highlight from UMFC 2011-12 season
@@ -77,23 +72,23 @@ The Wireframe for the website is saved in the repository [here](README.md)
 - The website is responsive and works on all devices
 - A banner link which takes the user to the clubshop where they can buy UMFC training general
 - Links to the UMFC sponsor websites
-- link to the Isle of Man Football Association website
+- Link to the Isle of Man Football Association website
 
 ### Features left to implement
 
 - A gallery page with lots of photos of UMFC players and matches, past and present
 - A page for hiring out the clubhouse including a form to submit booking inquiries
+- A page that provides information on the Union Mills Cricket team (page would be similar to index.html)
 
---------
 
-## Technologies Used
+# Technologies Used
 
-#### Languages Used
+### Languages Used
 
 - HTML5
 - CSS3
 
-#### Frameworks, Libraries and Programs Used
+### Frameworks, Libraries and Programs Used
 
 - Google Fonts:
 
@@ -115,8 +110,8 @@ Github was used to store the project
 
 Was used to create my wireframes for the project
 
---------
-## Testing
+
+# Testing
 
 Initially I wanted to make sure that all syntax used was valid on my three html sheets and CSS style sheet so used the [W3C Markup Validator](https://validator.w3.org/#validate_by_input) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) respectively.
 
@@ -175,7 +170,7 @@ Error 1 was caused by adding an alt attribute to an anchor tag which isn't requi
 
 Error 2 I had difficulty clearing. If I removed the h2 element it created alignment issues with the text and social media icons.
 
-## Testing User Stories from User Experience (UX) Section
+# Testing User Stories from User Experience (UX) Section
 
 #### UMFC Members
 
@@ -263,7 +258,7 @@ Error 2 I had difficulty clearing. If I removed the h2 element it created alignm
     - The user scrolls down to the clearly labelled "How to find us" section
     - The user is presented with a map of Douglas (courtesy of Google Maps) to help the user find the ground in relation to Douglas town center
 
-## Further Testing
+# Further Testing
 
 1) The website was tested on three different internet browsers
     - Google Chrome
@@ -286,13 +281,13 @@ Error 2 I had difficulty clearing. If I removed the h2 element it created alignm
     - Surface Duo
     - Galaxy Fold
 
-## Known Bugs
+# Known Bugs
 
 1) When opening the live website on Internet Explorer 11, the background picture in the Welcome section on the home page appears stretched
-2) When viewing the TT camping page on various mobile devices, part of the text in the top section is cut off on the right hand side
-3) When viewing the Contact US page on Microsoft Edge, there does not appear to be any gap/margin between the map and the text underneath
---------
-## Deployment
+2) When viewing the "TT camping" page on various mobile devices, part of the text in the top section is cut off on the right hand side
+3) When viewing the "Contact Us" page on Microsoft Edge, there does not appear to be any gap/margin between the map and the text underneath
+
+# Deployment
 #### GitHub Pages
 The following steps were taken to deploy the project in Github Pages
 1) Logged into Github
@@ -301,21 +296,21 @@ The following steps were taken to deploy the project in Github Pages
 4) scrolled down to GitHub pages
 5) Underneath the "source" heading change "none" to "master" and click save.
 6) After saving refresh the page (if it does not automatically) and then the link to the live website will be 
---------
-## Credits
 
-### Code
+# Credits
+
+#### Code
 
 - css-tricks.com - was used when I had issues styling background images. I was trying to add background images and reduce the opacity value but I could not get it to work initially. 
 - w3schools.com - used to quickley look up various element tags
 - Code Institute for the course materials and general support
 - stackoverflow - was used to see if other programmers were having similar problems with certain syntax. For example, initially I was struggling to position elements centrally within their container with "margin: 0 auto;". I could not figure out why it was not working as expected. I used stackover to see if other people faced a similar problem and what the common causes of this were.
 
-### Content
+#### Content
     
 All content was written by the developer
 
-### Media
+#### Media
 
 - The football and boot image in the welcome section came from this [link](https://www.google.com/search?q=soccer+wallpapers&rlz=1C1CHBF_enIM911IM911&tbm=isch&source=iu&ictx=1&fir=vRYNl1mCYq6KrM%252COWUyXBn7TWteqM%252C_&vet=1&usg=AI4_-kTKYGZXgO0X8iQCMyfmV4CHuMh3EA&sa=X&ved=2ahUKEwiXhuSdtOPrAhVjlFwKHdw-AUAQ9QF6BAgKEF0&biw=1920&bih=937#imgrc=vRYNl1mCYq6KrM) 
 - The training image in the join section came from this [link](https://www.google.com/search?q=football+training+bayern&tbm=isch&ved=2ahUKEwjB9qfyrePrAhXZ44UKHSHJBjYQ2-cCegQIABAA&oq=football+training+bayern&gs_lcp=CgNpbWcQAzoCCAA6BggAEAgQHlCvzwJYytMCYP3UAmgAcAB4AIABZYgB8wOSAQM1LjGYAQCgAQGqAQtnd3Mtd2l6LWltZw&sclient=img&ei=MJxcX8GeOtnHlwShkpuwAw&safe=images&tbs=isz%3Alt%2Cislt%3Axga&hl=en-US#imgrc=oRzdLxj-eH0dsM)
@@ -329,7 +324,7 @@ All content was written by the developer
 - The picture of the UMFC clubhouse came from the UMFC private Facebook page
 - Map of Douglas (on the contact us page, how to find us section) was as screenshot from Google Maps
 
-### Acknowledgements
+#### Acknowledgements
 
 - My mentor for the feedback throughout the project at each mentor session
 - Code Institute for the course materials and general support
