@@ -1,6 +1,6 @@
 # Milestone project one - Union Mills FC
 
-Union Mills Football club is football team from the Isle of Man who currently complete in the men's 2nd Division. In addition to football, the club ground becomes a temporary campsite during the Isle of Man Tourist Trophy (TT) motorcycle festival (June) and the Manx Grand Prix (September) as tens of thousands of motorcycle enthusiasts come to the island and opt to camp, rather than book hotels (as it is considerably cheaper).
+Union Mills Football club is football team from the Isle of Man who currently compete in the men's 2nd Division. In addition to football, the club ground becomes a temporary campsite during the Isle of Man Tourist Trophy (TT) motorcycle festival (June) and the Manx Grand Prix (September) as tens of thousands of motorcycle enthusiasts come to the island and opt to camp, rather than book hotels (as it is considerably cheaper).
 
 To ensure the club always has a strong squad of players, and that the club stays financially stable, a new website is required to try and attract new players to the club and encourage existsing players to stay as all players pay subscriptions which provides valuable income to the club.
 
@@ -51,7 +51,7 @@ Colour Scheme
 
 Typography
 
-- For the headings I used Bebas Neue. I came accross it after cyling through many fonts on Google Fonts. It is quite a striking font mostly due to being capitalised and works well as the the font for headings. One of the suggested pairings (from Google Fonts) was Montserrat which worked well for the paragraphs of text so I decided to use it.
+- For the headings I used Bebas Neue. I came accross it after cyling through many fonts on Google Fonts. It is quite a striking font mostly due to being capitalised and works well as the font for headings. One of the suggested pairings (from Google Fonts) was Montserrat which worked well for the paragraphs of text so I decided to use it.
 
 Imagery
 
@@ -68,7 +68,7 @@ Imagery
 - Form on the TT camping page which allows users to submit booking enquiries
 - Form on the contact us page which allows users to submit feedback on the website
 - The website is responsive and works on all devices
-- A banner link which takes the user to the clubshop where they can buy UMFC training general
+- A banner link which takes the user to the clubshop where they can buy UMFC training gear
 - Links to the UMFC sponsor websites
 - Link to the Isle of Man Football Association website
 
@@ -113,7 +113,7 @@ Was used to create my wireframes for the project
 
 ## Code Validation
 
-Initially I wanted to make sure that all syntax used was valid on my three html sheets and CSS style sheet so used the [W3C Markup Validator](https://validator.w3.org/#validate_by_input) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) respectively.
+Initially I wanted to make sure that all syntax used was valid on my website so used the [W3C Markup Validator](https://validator.w3.org/#validate_by_input) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) respectively.
 
 #### Upon checking my CSS file got three errors:
 
@@ -281,7 +281,7 @@ Thorough testing was done on the live website on laptop/pc, mobile and tablet de
 
     - Football news section
         - In the Football news subsection I clicked on the link where it says "click here"
-        - The link opens in a new tab and takes the user to the Isle of Man Today website website and the user is presented with the lastest football news stories from the Isle of Man
+        - The link opens in a new tab and takes the user to the Isle of Man Today website and the user is presented with the latest football news stories from the Isle of Man
         - It worked as expected
 
     - League table section
@@ -296,9 +296,9 @@ Thorough testing was done on the live website on laptop/pc, mobile and tablet de
     - After clicking on the play button in the center of the video, the video start playing with sound as expected
 
 8) Booking Form
-    - From the home, I clicked on the TT Camping navigation link in the header
+    - From the home page, I clicked on the TT Camping navigation link in the header
     - Once on the TT Camping page, I scrolled down to the Booking section which contains the form where users can submit booking enquiries
-    - Just above the form, there is a link to the text which the user can click on if they want to get in touch with someone from UMFC
+    - Just above the form, there is a link in the text which the user can click on if they want to get in touch with someone from UMFC
     - I clicked the link and was taken directly to the contact page as expected
     - Before inputting any information, I pressed the submit button at the bottom of the form which brought up an error asking the user to fill out the first name field
     - This was as expected as it is a mandatory field
@@ -307,8 +307,8 @@ Thorough testing was done on the live website on laptop/pc, mobile and tablet de
     - I input some text into this field and tried to submit again which brought up an error asking the user to fill out the email field
     - This was as expected as it is a mandatory field
     - I input some text into this field and tried to submit again which brought up an error specifying that the '@' symbol was missing
-    - This was as expected as the field has specific format with the email addresses expected to contain the '@' symbol
-    - I added some text and submitted again
+    - This was as expected as the field has a specific format with the email address expected to contain the '@' symbol
+    - I added the symbol and submitted again
     - This time the form submits successfully and the user is taken to booking.html which advises the user's booking enquiry has been sucessfully received
     - This was as expected as there were no other mandatory fields in the booking form
 
@@ -318,10 +318,9 @@ Thorough testing was done on the live website on laptop/pc, mobile and tablet de
         - I clicked the 'get in touch' link and was taken to the contact page where the clubs contact details are listed. This was as expected.
         - I completed the form again, this time clicking the 'back to home page' link and was taken to the home page as expected.
 
-
 10) Contact Us Form
 
-    - From the home, I clicked on the Contact Us navigation link in the header
+    - From the home page, I clicked on the Contact Us navigation link in the header
     - Once on the Contact Us page, I scrolled down to the Website Feedback section which contains the form where users can submit feedback or issues with the website
     - Before inputting any information, I pressed the submit button at the bottom of the form which brought up an error asking the user to fill out the 'your issue/feedback' field
     - This was as expected as it is a mandatory field
@@ -330,19 +329,16 @@ Thorough testing was done on the live website on laptop/pc, mobile and tablet de
     - I input some text into this field and tried to submit again which brought up an error asking the user to fill out the email field
     - This was as expected as it is a mandatory field
     - I input some text into this field and tried to submit again which brought up an error specifying that the '@' symbol was missing
-    - This was as expected as the field has specific format with the email addresses expected to contain the '@' symbol
-    - I added some text and submitted again
+    - This was as expected as the field has a specific format with the email address expected to contain the '@' symbol
+    - I added the symbol and submitted again
     - This time the form submits successfully and the user is taken to feedback.html which advises the user's feedback enquiry has been sucessfully received
     - This was as expected as there were no other mandatory fields in the feedback form
-
 
 11) feedback.html
     - After testing the feedback form, the user lands on feedback.html which advises the user that they have successfully submitted their website feedback
     - The user is presented with two links:
         - I clicked the 'get in touch' link and was taken to the contact page where the clubs contact details are listed. This was as expected.
         - I completed the form again, this time clicking the 'back to home page' link and was taken to the home page as expected.
-
-
 
 # Testing User Stories from User Experience (UX) Section
 
@@ -353,7 +349,7 @@ Thorough testing was done on the live website on laptop/pc, mobile and tablet de
     - Underneath the welcome picture of the football and football boot is the latest team information section
     - The users are presented with four subsections: last match, next match, football news and league table which are clearly labelled and separated
     - The users can see the "Next Match" subsection and click where it says "click here" and a new tab opens which takes users to the Isle of Man Football Association website
-    - The users are then presented with up to date fixture list for the current season
+    - The users are then presented with an up to date fixture list for the current season
 
 - As a member, if I wasn't present at the last game (or a specific match) I want to be able to see the results of all our matches
     - Upon entering the site, the user automatically lands on the "Home" page.
@@ -372,7 +368,7 @@ Thorough testing was done on the live website on laptop/pc, mobile and tablet de
 - As a member I want to know what time training takes place and the location (as it can change throughout the season)
     - Upon entering the site, the user automatically lands on the "Home" page.
     - The users scroll to the bottom of the page where they come accross the join section
-    - Although UMFC members are already part of the club, the join section lists the training items and location
+    - Although UMFC members are already part of the club, the join section lists the training time and location
     - The users can check back to this section to see if the training times/location changes
 
 #### Football players who are non-members
@@ -406,24 +402,25 @@ Thorough testing was done on the live website on laptop/pc, mobile and tablet de
 - As a TT camper, I want to know what facilities are available at the UMFC campsite
     - Upon entering the site, the user automatically lands on the "Home" page.
     - In the navigation bar at the top, the users can clearly see the link to the "TT Camping" page
-    - After clicking on the TT "Camping" page, the user knows they are in the correct place as they are presented with some text urging them to book their stay
+    - After clicking on the "TT Camping" page, the user knows they are in the correct place as they are presented with some text urging them to book their stay and a picture of a TT race competitor 
     - The user scrolls down till they reach the "Camping information" section
     - This section lists the facilities available to campers at the UMFC camp site
 
 - As a TT camper, I want to know how much it costs to camp at the UMFC campsite
     - Upon entering the site, the user automatically lands on the "Home" page.
     - In the navigation bar at the top, the users can clearly see the link to the "TT Camping" page
-    - After clicking on the TT "Camping" page, the user knows they are in the correct place as they are presented with some text urging them to book their stay
+    - After clicking on the "TT Camping" page, the user knows they are in the correct place as they are presented with some text urging them to book their stay and a picture of a TT race competitor
     - The user scrolls down till they reach the "Camping information" section
     - This section lists the prices of booking a stay a the UMFC camp site
 
 - As a TT camper, I enquire about availability
     - Upon entering the site, the user automatically lands on the "Home" page.
     - In the navigation bar at the top, the users can clearly see the link to the "TT Camping" page
-    - After clicking on the TT "Camping" page, the user knows they are in the correct place as they are presented with some text urging them to book their stay
+    - After clicking on the "TT Camping" page, the user knows they are in the correct place as they are presented with some text urging them to book their stay and a picture of a TT race competitor
     - The user scrolls down till they reach the "Booking" section
     - The user is presented with a form to complete and submit
-    - If the user has any queries they can click on the link at the top of the form that will take the users to the "Contact Us" page where they are presented with different methods for contacting people from the club
+    - Upon completing the form correctly the user will land on another confirming they have successfully submitted an booking enquiry
+    - If the user has any queries they can click on the link that will take the users to the "Contact Us" page where they are presented with different methods for contacting people from the club
     
 
 - As a TT camper, I want to know how to find the campsite
@@ -441,7 +438,7 @@ Thorough testing was done on the live website on laptop/pc, mobile and tablet de
 
 2) All links on the website were clicked on to make sure they work as expected. All links opened as expected.
 
-3) The website viewed (all pages) on various mobile and tablet devices by using the Inspect feature. The following devices were tested
+3) The website was viewed (all pages) on various mobile and tablet devices by using the Inspect feature. The following devices were tested
     - Moto G4
     - Galaxy S5
     - Pixel 2
@@ -460,8 +457,7 @@ Thorough testing was done on the live website on laptop/pc, mobile and tablet de
 # Known Bugs
 
 1) When opening the live website on Internet Explorer 11, the background picture in the Welcome section on the home page appears stretched
-2) When viewing the "TT camping" page on various mobile devices, part of the text in the top section is cut off on the right hand side
-3) When viewing the "Contact Us" page on Microsoft Edge, there does not appear to be any gap/margin between the map and the text underneath
+2) When viewing the "Contact Us" page on Microsoft Edge, there does not appear to be any gap/margin between the map and the text underneath
 
 # Deployment
 #### GitHub Pages
@@ -469,16 +465,16 @@ The following steps were taken to deploy the project in Github Pages
 1) Logged into Github
 2) Went to the repository for my milestone project one
 3) Clicked on settings
-4) scrolled down to GitHub pages
-5) Underneath the "source" heading change "none" to "master" and click save.
-6) After saving refresh the page (if it does not automatically) and then the link to the live website will be 
+4) Scrolled down to GitHub pages
+5) Underneath the "source" heading, change "none" to "master" and click save.
+6) After saving refresh the page (if it does not automatically) and then the link to the live website will be available
 
 # Credits
 
 #### Code
 
 - css-tricks.com - was used when I had issues styling background images. I was trying to add background images and reduce the opacity value but I could not get it to work initially. 
-- w3schools.com - used to quickley look up various element tags
+- w3schools.com - used to quickly look up various element tags
 - Code Institute for the course materials and general support
 - stackoverflow - was used to see if other programmers were having similar problems with certain syntax. For example, initially I was struggling to position elements centrally within their container with "margin: 0 auto;". I could not figure out why it was not working as expected. I used stackover to see if other people faced a similar problem and what the common causes of this were.
 
@@ -488,7 +484,7 @@ All content was written by the developer
 
 #### Media
 
-- The football and boot image in the welcome section came from this [link](https://www.google.com/search?q=soccer+wallpapers&rlz=1C1CHBF_enIM911IM911&tbm=isch&source=iu&ictx=1&fir=vRYNl1mCYq6KrM%252COWUyXBn7TWteqM%252C_&vet=1&usg=AI4_-kTKYGZXgO0X8iQCMyfmV4CHuMh3EA&sa=X&ved=2ahUKEwiXhuSdtOPrAhVjlFwKHdw-AUAQ9QF6BAgKEF0&biw=1920&bih=937#imgrc=vRYNl1mCYq6KrM) 
+- The football and football boot image in the welcome section came from this [link](https://www.google.com/search?q=soccer+wallpapers&rlz=1C1CHBF_enIM911IM911&tbm=isch&source=iu&ictx=1&fir=vRYNl1mCYq6KrM%252COWUyXBn7TWteqM%252C_&vet=1&usg=AI4_-kTKYGZXgO0X8iQCMyfmV4CHuMh3EA&sa=X&ved=2ahUKEwiXhuSdtOPrAhVjlFwKHdw-AUAQ9QF6BAgKEF0&biw=1920&bih=937#imgrc=vRYNl1mCYq6KrM) 
 - The training image in the join section came from this [link](https://www.google.com/search?q=football+training+bayern&tbm=isch&ved=2ahUKEwjB9qfyrePrAhXZ44UKHSHJBjYQ2-cCegQIABAA&oq=football+training+bayern&gs_lcp=CgNpbWcQAzoCCAA6BggAEAgQHlCvzwJYytMCYP3UAmgAcAB4AIABZYgB8wOSAQM1LjGYAQCgAQGqAQtnd3Mtd2l6LWltZw&sclient=img&ei=MJxcX8GeOtnHlwShkpuwAw&safe=images&tbs=isz%3Alt%2Cislt%3Axga&hl=en-US#imgrc=oRzdLxj-eH0dsM)
 - The embedded video came from Paul Hatton's YouTube channel [link](https://www.youtube.com/watch?v=HCESTyQ0C4I)
 - The background image in the from the vault section came from the UMFC private Facebook page
