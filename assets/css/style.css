@@ -1089,6 +1089,22 @@ hr {
     border-radius: 5px;
 }
 
+/* =============================================== BOOKING.HTML PAGE STYLING =============================================== */
+#booking-enquiry h1, #booking-enquiry p {
+    margin: 20px;
+    text-align: center;
+}
+
+#booking-enquiry h1 i {
+    color: green;
+}
+
+#booking-enquiry a h1 {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
 
 /* =============================================== TABLET SCREENS =============================================== */
 
