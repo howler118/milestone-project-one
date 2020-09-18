@@ -6,8 +6,6 @@ To ensure the club always has a strong squad of players, and that the club stays
 
 The website also would provide details of the campsite and a form to complete which facilitates booking of a camping lot. The camping provides a signifcant amount of income for the club and so a good website is key to attacting potential campers and making it easy to book a space.
 
-[Click here to access the Git Repository](https://github.com/howler118/milestone-project-one)
-
 [Click here to view the live website](https://howler118.github.io/milestone-project-one)
 
 
@@ -61,7 +59,7 @@ Imagery
 
  Wireframes
 
-- The Wireframe for the website is saved in the repository [here](README.md)
+- The Wireframes for the website are available to view in the repository
 
 # Features
 
@@ -112,6 +110,8 @@ Was used to create my wireframes for the project
 
 
 # Testing
+
+## Code Validation
 
 Initially I wanted to make sure that all syntax used was valid on my three html sheets and CSS style sheet so used the [W3C Markup Validator](https://validator.w3.org/#validate_by_input) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) respectively.
 
@@ -169,6 +169,180 @@ Upon checking contact.html got two errors:
 Error 1 was caused by adding an alt attribute to an anchor tag which isn't required in the club shop banner section. I removed this tag which cleared the error.
 
 Error 2 I had difficulty clearing. If I removed the h2 element it created alignment issues with the text and social media icons.
+
+## Live Website Testing
+
+Thorough testing was done on the live website on laptop/pc, mobile and tablet device screensizes. The testing undertaken is listed below.
+
+1) Navigation between pages (from the home page)
+    - TT Camping page
+        - When on the home page, I clicked on the TT camping page link in the navigation bar at the top to see if the user is taken to the the TT Camping page.
+        - The user is taken to the TT camping page as expected
+    
+    - Contact Us page
+        - When on the home page, I clicked on the Contact Us page link in the navigation bar at the top to see if the user is taken to the the Contact Us page.
+        - The user is taken to the Contact Us page as expected
+
+2) Navigation between pages (from the TT Camping page)
+    - Home page (via Home in the navigation bar)
+        - When on the TT Camping page, I clicked on the Home page link in the navigation bar at the top to see if the user is taken to the the Home page.
+        - The user is taken to the Home page as expected
+    
+    - Home page (via UMFC logo in the navigation bar)
+        - When on the TT Camping page, I clicked on the UMFC logo on the left hand side of the navigation bar to see if the user is taken to the the Home page.
+        - The user is taken to the Home page as expected
+
+    - Home page (via Union Mills Football Club text in the navigation bar)
+        - When on the TT Camping page, I clicked on the Union Mills Football Club text on the left hand side of the navigation bar to see if the user is taken to the the Home page.
+        - The user is taken to the Home page as expected
+    
+    - Contact Us page
+        - When on the TT Camping page, I clicked on the Contact Us page link in the navigation bar at the top to see if the user is taken to the the Contact Us page.
+        - The user is taken to the Contact Us page as expected
+
+3) Navigation between pages (from the Contact Us page)
+    - Home page (via Home in the navigation bar)
+        - When on the Contact Us page, I clicked on the Home page link in the navigation bar at the top to see if the user is taken to the the Home page.
+        - The user is taken to the Home page as expected
+    
+    - Home page (via UMFC logo in the navigation bar)
+        - When on the Contact Us page, I clicked on the UMFC logo on the left hand side of the navigation bar to see if the user is taken to the the Home page.
+        - The user is taken to the Home page as expected
+
+    - Home page (via Union Mills Football Club text in the navigation bar)
+        - When on the Contact Us page, I clicked on the Union Mills Football Club text on the left hand side of the navigation bar to see if the user is taken to the the Home page.
+        - The user is taken to the Home page as expected
+    
+    - TT Camping page
+        - When on the Contact Us page, I clicked on the TT Camping page link in the navigation bar at the top to see if the user is taken to the the TT Camping page.
+        - The user is taken to the TT Camping page as expected
+
+
+4) Clubshop Banner Link
+    - Home Page
+        - On the Home page, I scrolled to the bottom of the page.
+        - clicked on the clubshop banner just above the Footer
+        - the clubshop website opens in a new tab as expected
+
+    - TT Camping Page
+        - On the TT Camping page, I scrolled to the bottom of the page.
+        - clicked on the clubshop banner just above the Footer
+        - the clubshop website opens in a new tab as expected
+
+    - Contact Us Page
+        - On the Contact Us page, I scrolled to the bottom of the page.
+        - clicked on the clubshop banner just above the Footer
+        - the clubshop website opens in a new tab as expected
+
+5) Footer Links
+
+    - Home page
+        - On the Home page, I scrolled to the bottom of the page
+        - clicked on the Nike logo in the footer which opened in a new tab as expected
+        - clicked on the Quayside Tyres logo in the footer which opened in a new tab as expected
+        - clicked on the Isle of Man Football Association logo in the footer which opened in a new tab as expected
+        - clicked on the Instagram logo in the footer which opened in a new tab as expected
+        - clicked on the YouTube logo in the footer which opened in a new tab as expected
+        - clicked on the Twitter logo in the footer which opened in a new tab as expected
+        - clicked on the Facebook logo in the footer which opened in a new tab as expected
+
+    - TT Camping page
+        - On the TT Camping page, I scrolled to the bottom of the page
+        - clicked on the Nike logo in the footer which opened in a new tab as expected
+        - clicked on the Quayside Tyres logo in the footer which opened in a new tab as expected
+        - clicked on the Isle of Man Football Association logo in the footer which opened in a new tab as expected
+        - clicked on the Instagram logo in the footer which opened in a new tab as expected
+        - clicked on the YouTube logo in the footer which opened in a new tab as expected
+        - clicked on the Twitter logo in the footer which opened in a new tab as expected
+        - clicked on the Facebook logo in the footer which opened in a new tab as expected
+
+    - Contact Us page
+        - On the Contact Us page, I scrolled to the bottom of the page
+        - clicked on the Nike logo in the footer which opened in a new tab as expected
+        - clicked on the Quayside Tyres logo in the footer which opened in a new tab as expected
+        - clicked on the Isle of Man Football Association logo in the footer which opened in a new tab as expected
+        - clicked on the Instagram logo in the footer which opened in a new tab as expected
+        - clicked on the YouTube logo in the footer which opened in a new tab as expected
+        - clicked on the Twitter logo in the footer which opened in a new tab as expected
+        - clicked on the Facebook logo in the footer which opened in a new tab as expected
+
+6) Latest team information section links
+    - On the Home page, below the welcome section, the user comes accross the Latest Team Information section.
+    - The section contains four subsections, each with an external link:
+    - Last match section
+        - In the last match subsection I clicked on the link where it says "click here"
+        - The link opens in a new tab and takes the user to the FA Full-time website and the user is presented with the list of results for the current football season
+        - It worked as expected
+
+    - Next match section
+        - In the next match subsection I clicked on the link where it says "click here"
+        - The link opens in a new tab and takes the user to the FA Full-time website and the user is presented with the list of fixtures for the current football season
+        - It worked as expected
+
+    - Football news section
+        - In the Football news subsection I clicked on the link where it says "click here"
+        - The link opens in a new tab and takes the user to the Isle of Man Today website website and the user is presented with the lastest football news stories from the Isle of Man
+        - It worked as expected
+
+    - League table section
+        - In the league table subsection I clicked on the link where it says "click here"
+        - The link opens in a new tab and takes the user to the FA Full-time website and the user is presented with the league table for the current football season
+        - It worked as expected
+
+7) Embedded youtube video
+    - On the Home page, the user scrolls down past the Latest Team Information and they reach the From the Vault section
+    - The section contains a embedded video from youtube
+    - The video does not play automatically as expected
+    - After clicking on the play button in the center of the video, the video start playing with sound as expected
+
+8) Booking Form
+    - From the home, I clicked on the TT Camping navigation link in the header
+    - Once on the TT Camping page, I scrolled down to the Booking section which contains the form where users can submit booking enquiries
+    - Just above the form, there is a link to the text which the user can click on if they want to get in touch with someone from UMFC
+    - I clicked the link and was taken directly to the contact page as expected
+    - Before inputting any information, I pressed the submit button at the bottom of the form which brought up an error asking the user to fill out the first name field
+    - This was as expected as it is a mandatory field
+    - I input some text into this field only and tried to submit again which brought up an error asking the user to fill out the surname field
+    - This was as expected as it is a mandatory field
+    - I input some text into this field and tried to submit again which brought up an error asking the user to fill out the email field
+    - This was as expected as it is a mandatory field
+    - I input some text into this field and tried to submit again which brought up an error specifying that the '@' symbol was missing
+    - This was as expected as the field has specific format with the email addresses expected to contain the '@' symbol
+    - I added some text and submitted again
+    - This time the form submits successfully and the user is taken to booking.html which advises the user's booking enquiry has been sucessfully received
+    - This was as expected as there were no other mandatory fields in the booking form
+
+9) booking.html
+    - After testing the booking form, the user lands on booking.html which advises the user that they have successfully submitted their booking enquiry
+    - The user is presented with two links:
+        - I clicked the 'get in touch' link and was taken to the contact page where the clubs contact details are listed. This was as expected.
+        - I completed the form again, this time clicking the 'back to home page' link and was taken to the home page as expected.
+
+
+10) Contact Us Form
+
+    - From the home, I clicked on the Contact Us navigation link in the header
+    - Once on the Contact Us page, I scrolled down to the Website Feedback section which contains the form where users can submit feedback or issues with the website
+    - Before inputting any information, I pressed the submit button at the bottom of the form which brought up an error asking the user to fill out the 'your issue/feedback' field
+    - This was as expected as it is a mandatory field
+    - I input some text into this field only and tried to submit again which brought up an error asking the user to fill out the description field
+    - This was as expected as it is a mandatory field
+    - I input some text into this field and tried to submit again which brought up an error asking the user to fill out the email field
+    - This was as expected as it is a mandatory field
+    - I input some text into this field and tried to submit again which brought up an error specifying that the '@' symbol was missing
+    - This was as expected as the field has specific format with the email addresses expected to contain the '@' symbol
+    - I added some text and submitted again
+    - This time the form submits successfully and the user is taken to feedback.html which advises the user's feedback enquiry has been sucessfully received
+    - This was as expected as there were no other mandatory fields in the feedback form
+
+
+11) feedback.html
+    - After testing the feedback form, the user lands on feedback.html which advises the user that they have successfully submitted their website feedback
+    - The user is presented with two links:
+        - I clicked the 'get in touch' link and was taken to the contact page where the clubs contact details are listed. This was as expected.
+        - I completed the form again, this time clicking the 'back to home page' link and was taken to the home page as expected.
+
+
 
 # Testing User Stories from User Experience (UX) Section
 
@@ -265,7 +439,7 @@ Error 2 I had difficulty clearing. If I removed the h2 element it created alignm
     - Microsoft Edge
     - Internet Explorer 11
 
-2) All links on the website were clicked on to make sure they work as expected
+2) All links on the website were clicked on to make sure they work as expected. All links opened as expected.
 
 3) The website viewed (all pages) on various mobile and tablet devices by using the Inspect feature. The following devices were tested
     - Moto G4
@@ -280,6 +454,8 @@ Error 2 I had difficulty clearing. If I removed the h2 element it created alignm
     - iPad Pro
     - Surface Duo
     - Galaxy Fold
+
+4) The website was tested on actual iPhone 6 in addition to laptop/PC. 
 
 # Known Bugs
 
@@ -330,4 +506,4 @@ All content was written by the developer
 - Code Institute for the course materials and general support
 - Union Mills Football Club for the use of the logo and other media
 - Paul Hatton for the use of his UMFC video on YouTube
-- Manchester United FC website (manutd.com) - gave me the idea for adding a website feedback section to the contact page
+- Manchester United FC website (manutd.com) - gave me the idea for adding a website feedback section to the contact us page
