@@ -634,7 +634,7 @@ The following steps were taken to download a copy of the repository to my deskto
 2) Navigated to the repository for this project, 'howler118/milestone-project-one'
 3) Clicked on the green code button and copied the url for the repository
 4) Opened git bash
-5) changed the director to my milestone one project folder on my pc
+5) Changed the director to my milestone one project folder on my pc
 6) Enter git clone and pasted the url for my repository
 7) Once the download was completed I checked the porject folder on my pc and the repository downloaded as expected
 
