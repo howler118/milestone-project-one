@@ -393,7 +393,7 @@ hr {
     opacity: 0.8;
 }
 
-#UMFC-trophy {
+#umfc-trophy {
     width:100%;
     opacity: 0.4;
     position: absolute;
@@ -934,7 +934,7 @@ hr {
     z-index: 2;
 }
 
-#UMFC_clubhouse {
+#umfc_clubhouse {
     width:100%;
     opacity: 0.3;
     position: absolute;
@@ -986,7 +986,7 @@ hr {
     text-align: center;
 }
 
-#UMFC_map {
+#umfc_map {
     display: block;
     height: 500px;
     margin: 0 auto;
@@ -1278,7 +1278,7 @@ hr {
         padding: 30px;
     }
 
-    #UMFC-trophy {
+    #umfc-trophy {
         display: none;
     }
 
@@ -1539,7 +1539,7 @@ hr {
         padding: 0px;
     }
 
-    #UMFC_clubhouse {
+    #umfc_clubhouse {
         display: none;
     }
 
@@ -1569,7 +1569,7 @@ hr {
         height: 550px;
     }
 
-    #UMFC_map {
+    #umfc_map {
         border: 10px solid white;
         width: 600px;
     }
@@ -1866,7 +1866,7 @@ hr {
         height: 260px;
     }
 
-    #UMFC_map {
+    #umfc_map {
         border: 10px solid white;
         height: 235px;
         width: 235px;
