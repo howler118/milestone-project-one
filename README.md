@@ -342,92 +342,251 @@ Thorough testing was done on the live website on laptop/pc, mobile and tablet de
 
 # Testing User Stories from User Experience (UX) Section
 
-#### UMFC Members
+## UMFC Members
 
-- As a member, I want to easily find the fixture list so I know what games are coming up
-    - Upon entering the site, the user automatically lands on the "Home" page.
-    - Underneath the welcome picture of the football and football boot is the latest team information section
-    - The users are presented with four subsections: last match, next match, football news and league table which are clearly labelled and separated
-    - The users can see the "Next Match" subsection and click where it says "click here" and a new tab opens which takes users to the Isle of Man Football Association website
-    - The users are then presented with an up to date fixture list for the current season
+#### 1) As a member, I want to easily find the fixture list so I know what games are coming up
+- Upon entering the site, the user automatically lands on the "Home" page.
 
-- As a member, if I wasn't present at the last game (or a specific match) I want to be able to see the results of all our matches
-    - Upon entering the site, the user automatically lands on the "Home" page.
-    - Underneath the welcome picture of the football and football boot is the latest team information section
-    - The users are presented with four subsections: last match, next match, football news and league table which are clearly labelled and separated
-    - The users can see the "Last Match" subsection and click where it says "click here" and a new tab opens which takes users to the Isle of Man Football Association website
-    - The users are then presented with all of the season results to date
+<br><br>
+<img src="assets/images/user_stories_ss_1.JPG" height="300px">
+<br><br>
 
-- As a member, I want to see the current league table to see how the team is performing
-    - Upon entering the site, the user automatically lands on the "Home" page.
-    - Underneath the welcome picture of the football and football boot is the latest team information section
-    - The users are presented with four subsections: last match, next match, football news and league table which are clearly labelled and separated
-    - The users can see the "League table" subsection and click where it says "click here" and a new tab opens which takes users to the Isle of Man Football Association website
-    - The users are then presented with an up to date league table for the current season
+- Underneath the welcome picture of the football and football boot is the latest team information section
+- The users are presented with four subsections: last match, next match, football news and league table which are clearly labelled and separated
 
-- As a member I want to know what time training takes place and the location (as it can change throughout the season)
-    - Upon entering the site, the user automatically lands on the "Home" page.
-    - The users scroll to the bottom of the page where they come accross the join section
-    - Although UMFC members are already part of the club, the join section lists the training time and location
-    - The users can check back to this section to see if the training times/location changes
+<br><br>
+<img src="assets/images/user_stories_ss_2.JPG" height="300px">
+<br><br>
 
-#### Football players who are non-members
+- The users can see the "Next Match" subsection and click where it says "click here" and a new tab opens which takes users to the Isle of Man Football Association website
+- The users are then presented with an up to date fixture list for the current season
 
-- As a footballer looking to join the club, I want to know about when and where training takes place
-    - Upon entering the site, the user automatically lands on the "Home" page.
-    - The users scroll to the bottom of the page where they come accross the clearly marked join section
-    - The join section give details of the training times so the user know when and where to go
-    - If the user is unsure on anything they can go to the contact us page via the navigation bar at the top and they immediately see various contact information
+<br><br>
+<img src="assets/images/user_stories_ss_3.JPG" height="300px">
+<br><br>
 
-- As a footballer looking to join the club, I want to know about the price of subscriptions
-    - Upon entering the site, the user automatically lands on the "Home" page.
-    - The users scroll to the bottom of the page where they come accross the clearly marked join section
-    - The join section clearly lists the amount it costs to become member of the club
-    - If the user is a parent looking for a club for their child, the join section also lists the membership (subscription) cost for junior players too
-    - If the user is unsure on anything they can go to the contact us page via the navigation bar at the top and they immediately see various contact information
+#### 2) As a member, if I wasn't present at the last game (or a specific match) I want to be able to see the results of all our matches
+- Upon entering the site, the user automatically lands on the "Home" page.
 
-- As a footballer looking to join the club, I would be interesting to know about the club's history
-    - Upon entering the site, the user automatically lands on the "Home" page.
-    - The user does not have to scroll down the home page far before they come accross the clear labelled "About the Club" section
-    - The section provides key information from the history of the club so the user does not have to read pages and pages of information to understand the sucess the club has had and any club records
+<br><br>
+<img src="assets/images/user_stories_ss_1.JPG" height="300px">
+<br><br>
 
-- As a footballer looking to join the club, I want to know where the club is 
-    - Upon entering the site, the user automatically lands on the "Home" page.
-    - Users use the navigation bar at the top to nagivate to the "Contact Us" page
-    - The user scrolls down to the clearly labelled "How to find us" section
-    - The user is presented with a map of Douglas (courtesy of Google Maps) to help the user find the ground in relation to Douglas town center
+- Underneath the welcome picture of the football and football boot is the latest team information section
+- The users are presented with four subsections: last match, next match, football news and league table which are clearly labelled and separated
 
-#### Tourists visiting IoM for TT festival
+<br><br>
+<img src="assets/images/user_stories_ss_2.JPG" height="300px">
+<br><br>
 
-- As a TT camper, I want to know what facilities are available at the UMFC campsite
-    - Upon entering the site, the user automatically lands on the "Home" page.
-    - In the navigation bar at the top, the users can clearly see the link to the "TT Camping" page
-    - After clicking on the "TT Camping" page, the user knows they are in the correct place as they are presented with some text urging them to book their stay and a picture of a TT race competitor 
-    - The user scrolls down till they reach the "Camping information" section
-    - This section lists the facilities available to campers at the UMFC camp site
+- The users can see the "Last Match" subsection and click where it says "click here" and a new tab opens which takes users to the Isle of Man Football Association website
+- The users are then presented with all of the season results to date
 
-- As a TT camper, I want to know how much it costs to camp at the UMFC campsite
-    - Upon entering the site, the user automatically lands on the "Home" page.
-    - In the navigation bar at the top, the users can clearly see the link to the "TT Camping" page
-    - After clicking on the "TT Camping" page, the user knows they are in the correct place as they are presented with some text urging them to book their stay and a picture of a TT race competitor
-    - The user scrolls down till they reach the "Camping information" section
-    - This section lists the prices of booking a stay a the UMFC camp site
+<br><br>
+<img src="assets/images/user_stories_ss_4.JPG" height="300px">
+<br><br>
 
-- As a TT camper, I enquire about availability
-    - Upon entering the site, the user automatically lands on the "Home" page.
-    - In the navigation bar at the top, the users can clearly see the link to the "TT Camping" page
-    - After clicking on the "TT Camping" page, the user knows they are in the correct place as they are presented with some text urging them to book their stay and a picture of a TT race competitor
-    - The user scrolls down till they reach the "Booking" section
-    - The user is presented with a form to complete and submit
-    - Upon completing the form correctly the user will land on another confirming they have successfully submitted an booking enquiry
-    - If the user has any queries they can click on the link that will take the users to the "Contact Us" page where they are presented with different methods for contacting people from the club
-    
+#### 3) As a member, I want to see the current league table to see how the team is performing
+- Upon entering the site, the user automatically lands on the "Home" page.
 
-- As a TT camper, I want to know how to find the campsite
-    - Upon entering the site, the user automatically lands on the "Home" page.
-    - In the navigation bar at the top, the users can clearly see the link to the "Contact Us" page
-    - The user scrolls down to the clearly labelled "How to find us" section
-    - The user is presented with a map of Douglas (courtesy of Google Maps) to help the user find the ground in relation to Douglas town center
+<br><br>
+<img src="assets/images/user_stories_ss_1.JPG" height="300px">
+<br><br>
+
+- Underneath the welcome picture of the football and football boot is the latest team information section
+- The users are presented with four subsections: last match, next match, football news and league table which are clearly labelled and separated
+
+<br><br>
+<img src="assets/images/user_stories_ss_2.JPG" height="300px">
+<br><br>
+
+- The users can see the "League table" subsection and click where it says "click here" and a new tab opens which takes users to the Isle of Man Football Association website
+- The users are then presented with an up to date league table for the current season
+
+<br><br>
+<img src="assets/images/user_stories_ss_5.JPG" height="300px">
+<br><br>
+
+#### 4) As a member I want to know what time training takes place and the location (as it can change throughout the season)
+- Upon entering the site, the user automatically lands on the "Home" page.
+
+<br><br>
+<img src="assets/images/user_stories_ss_1.JPG" height="300px">
+<br><br>
+
+- The users scroll to the bottom of the page where they come accross the join section
+
+<br><br>
+<img src="assets/images/user_stories_ss_6.JPG" height="300px">
+<br><br>
+
+- Although UMFC members are already part of the club, the join section lists the training time and location
+- The users can check back to this section to see if the training times/location changes
+---
+## Football players who are non-members
+
+#### 1) As a footballer looking to join the club, I want to know about when and where training takes place
+- Upon entering the site, the user automatically lands on the "Home" page.
+
+<br><br>
+<img src="assets/images/user_stories_ss_1.JPG" height="300px">
+<br><br>
+
+- The users scroll to the bottom of the page where they come accross the clearly marked join section
+
+<br><br>
+<img src="assets/images/user_stories_ss_6.JPG" height="300px">
+<br><br>
+
+- The join section give details of the training times so the user know when and where to go
+- If the user is unsure on anything they can go to the contact us page via the navigation bar at the top and they immediately see various contact information
+
+#### 2) As a footballer looking to join the club, I want to know about the price of subscriptions
+- Upon entering the site, the user automatically lands on the "Home" page.
+
+<br><br>
+<img src="assets/images/user_stories_ss_1.JPG" height="300px">
+<br><br>
+
+- The users scroll to the bottom of the page where they come accross the clearly marked join section
+
+<br><br>
+<img src="assets/images/user_stories_ss_6.JPG" height="300px">
+<br><br>
+
+- The join section clearly lists the amount it costs to become member of the club
+- If the user is a parent looking for a club for their child, the join section also lists the membership (subscription) cost for junior players too
+- If the user is unsure on anything they can go to the contact us page via the navigation bar at the top and they immediately see various contact information
+
+<br><br>
+<img src="assets/images/user_stories_ss_7.JPG" height="300px">
+<br><br>
+
+#### 3) As a footballer looking to join the club, I would be interesting to know about the club's history
+- Upon entering the site, the user automatically lands on the "Home" page.
+
+<br><br>
+<img src="assets/images/user_stories_ss_1.JPG" height="300px">
+<br><br>
+
+- The user does not have to scroll down the home page far before they come accross the clear labelled "About the Club" section
+- The section provides key information from the history of the club so the user does not have to read pages and pages of information to understand the sucess the club has had and any club records
+
+<br><br>
+<img src="assets/images/user_stories_ss_8.JPG" height="300px">
+<br><br>
+
+#### 4) As a footballer looking to join the club, I want to know where the club is 
+- Upon entering the site, the user automatically lands on the "Home" page.
+
+<br><br>
+<img src="assets/images/user_stories_ss_1.JPG" height="300px">
+<br><br>
+
+- Users use the navigation bar at the top to nagivate to the "Contact Us" page
+
+<br><br>
+<img src="assets/images/user_stories_ss_7.JPG" height="300px">
+<br><br>
+
+- The user scrolls down to the clearly labelled "How to find us" section
+- The user is presented with a map of Douglas (courtesy of Google Maps) to help the user find the ground in relation to Douglas town center
+
+<br><br>
+<img src="assets/images/user_stories_ss_9.JPG" height="300px">
+<br><br>
+---
+## Tourists visiting IoM for TT festival
+
+#### 1) As a TT camper, I want to know what facilities are available at the UMFC campsite
+- Upon entering the site, the user automatically lands on the "Home" page.
+
+<br><br>
+<img src="assets/images/user_stories_ss_1.JPG" height="300px">
+<br><br>
+
+- In the navigation bar at the top, the users can clearly see the link to the "TT Camping" page
+- After clicking on the "TT Camping" page, the user knows they are in the correct place as they are presented with some text urging them to book their stay and a picture of a TT race competitor 
+
+<br><br>
+<img src="assets/images/user_stories_ss_10.JPG" height="300px">
+<br><br>
+
+- The user scrolls down till they reach the "Camping information" section
+- This section lists the facilities available to campers at the UMFC camp site
+<br><br>
+<img src="assets/images/user_stories_ss_11.JPG" height="300px">
+<br><br>
+
+#### 2) As a TT camper, I want to know how much it costs to camp at the UMFC campsite
+- Upon entering the site, the user automatically lands on the "Home" page.
+
+<br><br>
+<img src="assets/images/user_stories_ss_1.JPG" height="300px">
+<br><br>
+
+- In the navigation bar at the top, the users can clearly see the link to the "TT Camping" page
+- After clicking on the "TT Camping" page, the user knows they are in the correct place as they are presented with some text urging them to book their stay and a picture of a TT race competitor
+
+<br><br>
+<img src="assets/images/user_stories_ss_10.JPG" height="300px">
+<br><br>
+
+- The user scrolls down till they reach the "Camping information" section
+- This section lists the prices of booking a stay a the UMFC camp site
+
+<br><br>
+<img src="assets/images/user_stories_ss_11.JPG" height="300px">
+<br><br>
+
+#### 3) As a TT camper, I enquire about availability
+- Upon entering the site, the user automatically lands on the "Home" page.
+
+<br><br>
+<img src="assets/images/user_stories_ss_1.JPG" height="300px">
+<br><br>
+
+- In the navigation bar at the top, the users can clearly see the link to the "TT Camping" page
+- After clicking on the "TT Camping" page, the user knows they are in the correct place as they are presented with some text urging them to book their stay and a picture of a TT race competitor
+
+<br><br>
+<img src="assets/images/user_stories_ss_10.JPG" height="300px">
+<br><br>
+
+- The user scrolls down till they reach the "Booking" section
+
+<br><br>
+<img src="assets/images/user_stories_ss_12.JPG" height="300px">
+<br><br>
+
+- The user is presented with a form to complete and submit
+- Upon completing the form correctly the user will land on another confirming they have successfully submitted an booking enquiry
+- If the user has any queries they can click on the link that will take the users to the "Contact Us" page where they are presented with different methods for contacting people from the club
+
+<br><br>  
+<img src="assets/images/user_stories_ss_7.JPG" height="300px">
+<br><br>
+
+#### 4) As a TT camper, I want to know how to find the campsite
+- Upon entering the site, the user automatically lands on the "Home" page.
+
+<br><br>
+<img src="assets/images/user_stories_ss_1.JPG" height="300px">
+<br><br>
+
+- In the navigation bar at the top, the users can clearly see the link to the "Contact Us" page
+
+<br><br>
+<img src="assets/images/user_stories_ss_7.JPG" height="300px">
+<br><br>
+
+- The user scrolls down to the clearly labelled "How to find us" section
+
+<br><br>
+<img src="assets/images/user_stories_ss_9.JPG" height="300px">
+<br><br>
+
+- The user is presented with a map of Douglas (courtesy of Google Maps) to help the user find the ground in relation to Douglas town center
 
 # Further Testing
 
@@ -452,7 +611,7 @@ Thorough testing was done on the live website on laptop/pc, mobile and tablet de
     - Surface Duo
     - Galaxy Fold
 
-4) The website was tested on actual iPhone 6 in addition to laptop/PC. 
+4) The website was tested on an actual iPhone 6 in addition to laptop/PC. 
 
 # Known Bugs
 
@@ -468,6 +627,16 @@ The following steps were taken to deploy the project in Github Pages
 4) Scrolled down to GitHub pages
 5) Underneath the "source" heading, change "none" to "master" and click save.
 6) After saving refresh the page (if it does not automatically) and then the link to the live website will be available
+
+#### Local Deployment
+The following steps were taken to download a copy of the repository to my desktop
+1) Logged into GitHub
+2) Navigated to the repository for this project, 'howler118/milestone-project-one'
+3) Clicked on the green code button and copied the url for the repository
+4) Opened git bash
+5) changed the director to my milestone one project folder on my pc
+6) Enter git clone and pasted the url for my repository
+7) Once the download was completed I checked the porject folder on my pc and the repository downloaded as expected
 
 # Credits
 
