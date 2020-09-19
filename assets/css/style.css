@@ -164,13 +164,25 @@ footer h2 {
     margin-top: 1px;
 }
 
-#social_media_links {
-    list-style-type: none;
-    font-size: inherit;
-    text-align: center;
+#social_media_text {
+    float: left;
+    width: 60%;
+    height: 100%;
 }
 
-#social_media_links h2 {
+#social_media_links {
+    float: right;
+    width: 40%;
+    height: 100%;
+}
+
+#social_media_links ul {
+    list-style-type: none;
+    font-size: inherit;
+    margin-right: 30px;
+}
+
+#social_media_text h2 {
     font-size: 30px;
     margin-right: 20px;
     letter-spacing: 0px;
@@ -182,7 +194,7 @@ footer h2 {
     font-size: inherit;
 }
 
-#social_media_links h2 li {
+#social_media_links ul li {
     position: relative;
     float: right;
     margin-left: 10px;
@@ -851,7 +863,7 @@ hr {
 /* =============================================== CONTACT DETAILS SECTION STYLING =============================================== */
 
 #contact-container {
-    height: 750px;
+    height: 595px;
     width: 100%;
     overflow: hidden;
 }
@@ -963,6 +975,7 @@ hr {
     height: 60%;
     width: 100%;
     position: relative;
+    margin-top: 20px;
 }
 
 #find-outer-bottom {
@@ -975,7 +988,7 @@ hr {
 
 #UMFC_map {
     display: block;
-    width: 40%;
+    height: 500px;
     margin: 0 auto;
     border: 10px solid #7f1734;
     border-radius: 10px;
@@ -1156,9 +1169,18 @@ hr {
         font-size: 40px;    
     }
 
-    #social_media_links span {
+    #social_media_text {
         display: none;
     }
+
+    #social_media_links {
+        width: 100%;
+    }
+
+    #social_media_links ul {
+        margin-right: 100px;
+    }
+
 
     /* ======== CLUBSHOP BANNER ======== */
 
@@ -1524,7 +1546,7 @@ hr {
     /* FIND US SECTION */
 
     #find-container {
-        height: 800px;
+        height: 1100px;
         background-color: #7f1734;
     }
 
@@ -1539,13 +1561,17 @@ hr {
         color:  white;
     }
 
-    #find-outer-top, #find-outer-middle {
-        height: 300px;
+    #find-outer-top {
+        height: 250px;
     }
     
+    #find-outer-middle {
+        height: 550px;
+    }
+
     #UMFC_map {
         border: 10px solid white;
-        width: 400px;
+        width: 600px;
     }
 
     /* FEEDBACK SECTION */
@@ -1618,6 +1644,11 @@ hr {
     footer h2, #social_media_links{
         font-size: 20px;    
     }
+
+    #social_media_links ul {
+        margin-right: 10px;
+    }
+
    
 
     /* ======== CLUBSHOP BANNER ======== */
@@ -1818,6 +1849,10 @@ hr {
     
     /*FIND US SECTION */
     
+    #find-container {
+        height: 900px;
+        background-color: #7f1734;
+    }
 
     #find-container p {
         font-size: 15px;
@@ -1828,12 +1863,13 @@ hr {
     }
 
     #find-outer-middle {
-        height: 200px;
+        height: 260px;
     }
 
     #UMFC_map {
         border: 10px solid white;
-        width: 200px;
+        height: 235px;
+        width: 235px;
     }
     
     /* FEEDBACK SECTION */
