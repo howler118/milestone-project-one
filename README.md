@@ -144,7 +144,7 @@ Errors 2-6 were all caused by the bold tag occuring before the paragraph tags or
 
 Error 7 was caused by adding an alt attribute to an anchor tag which isn't required in the club shop banner section. I removed this tag which cleared the error.
 
-Error 8 I had difficulty clearing. If I removed the h2 element it created alignment issues with the text and social media icons.
+Error 8 I had difficulty clearing. If I removed the h2 element it created alignment issues with the text and social media icons. To solve the alignment issues I created a new div that would contain the h2 and this helped align the h2 with the social media links
 
 #### Upon checking camping.html got four errors:
 
@@ -159,7 +159,7 @@ Error 2 was caused by a paragraph tag being inside an an unordered list. I moved
 
 Error 3 was caused by adding an alt attribute to an anchor tag which isn't required in the club shop banner section. I removed this tag which cleared the error.
 
-Error 4 I had difficulty clearing. If I removed the h2 element it created alignment issues with the text and social media icons.
+Error 4 I had difficulty clearing. If I removed the h2 element it created alignment issues with the text and social media icons. To solve the alignment issues I created a new div that would contain the h2 and this helped align the h2 with the social media links
 
 Upon checking contact.html got two errors:
 
@@ -168,7 +168,7 @@ Upon checking contact.html got two errors:
 
 Error 1 was caused by adding an alt attribute to an anchor tag which isn't required in the club shop banner section. I removed this tag which cleared the error.
 
-Error 2 I had difficulty clearing. If I removed the h2 element it created alignment issues with the text and social media icons.
+Error 2 I had difficulty clearing. If I removed the h2 element it created alignment issues with the text and social media icons. To solve the alignment issues I created a new div that would contain the h2 and this helped align the h2 with the social media links
 
 ## Live Website Testing
 
